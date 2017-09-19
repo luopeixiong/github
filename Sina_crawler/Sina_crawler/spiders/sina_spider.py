@@ -8,7 +8,7 @@ import json
 import re
 from Sina_crawler.items import SinaCrawlerItem
 #from scrapy import log
-from myselector import Selector as S
+from .myselector import Selector as S
 import time
 
 
