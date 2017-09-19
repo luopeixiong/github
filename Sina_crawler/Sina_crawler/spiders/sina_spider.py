@@ -23,7 +23,7 @@ class SinaSpiderSpider(scrapy.Spider):
             "CONCURRENT_REQUESTS_PER_IP":1,
             "CONCURRENT_REQUESTS_PER_DOMAIN":1,
             "DOWNLOAD_DELAY":2,
-            'ITEM_PIPELINES':{'Sina_crawler.pipelines.SinaSpidersPipeline': 300}
+#            'ITEM_PIPELINES':{'Sina_crawler.pipelines.SinaSpidersPipeline': 300}
             }
     
     start_urls = "http://money.finance.sina.com.cn/d/api/openapi_proxy.php/?__s=[[%22hq%22,%22{board}%22,%22%22,0,{page},40]]"
