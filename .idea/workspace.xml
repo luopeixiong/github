@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d3546def-8003-4561-8f76-832f38868843" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sina_spiders" afterPath="$PROJECT_DIR$/sina_spiders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AMAC_Product/.idea/workspace.xml" afterPath="$PROJECT_DIR$/AMAC_Product/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sina_crawler/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Sina_crawler/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,16 +22,6 @@
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sina_crawler/Sina_crawler/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -62,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/Major_shareholder.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="50" column="22" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="58" selection-end-column="21" />
+              <caret line="50" column="22" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="58" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -72,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/Tradable_shareholders.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="108" selection-end-column="25" />
+              <caret line="59" column="11" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="108" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -88,12 +78,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fund_holder.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fund_holder.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/fund_holder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state relative-caret-position="95">
+              <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="52" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="private_fund.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/private_fund.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="63" column="33" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="64" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Laws/Laws/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1505798235100" expanded="true" signature="698:3108" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bjsf.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/bjsf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,8 +137,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="190" />
-    <option name="y" value="62" />
+    <option name="x" value="241" />
+    <option name="y" value="78" />
     <option name="width" value="1026" />
     <option name="height" value="545" />
   </component>
@@ -140,6 +164,29 @@
             <path>
               <item name="gitwork" type="b2602c69:ProjectViewProjectNode" />
               <item name="gitwork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitwork" type="462c0819:PsiDirectoryNode" />
+              <item name="AMAC_Product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitwork" type="462c0819:PsiDirectoryNode" />
+              <item name="AMAC_Product" type="462c0819:PsiDirectoryNode" />
+              <item name="AMAC_Product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitwork" type="462c0819:PsiDirectoryNode" />
+              <item name="AMAC_Product" type="462c0819:PsiDirectoryNode" />
+              <item name="AMAC_Product" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitwork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitwork" type="462c0819:PsiDirectoryNode" />
+              <item name="Sina_crawler" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,7 +225,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="190" y="62" width="1026" height="545" extended-state="1" />
+    <frame x="241" y="78" width="1026" height="545" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24950495" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -247,7 +295,7 @@
     <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/Major_shareholder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="50" column="22" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="58" selection-end-column="21" />
+          <caret line="50" column="22" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="58" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -255,7 +303,7 @@
     <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/Tradable_shareholders.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="108" selection-end-column="25" />
+          <caret line="59" column="11" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="108" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -268,10 +316,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Laws/Laws/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1505798235100" expanded="true" signature="698:3108" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/bjsf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/fund_holder.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/private_fund.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <caret line="63" column="33" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="64" selection-end-column="62" />
           <folding />
         </state>
       </provider>
