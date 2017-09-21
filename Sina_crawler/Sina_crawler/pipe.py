@@ -53,8 +53,10 @@ class sqlserver(object):
     def getQueryResult(self,item,keys, wherekey, tb, isfetchall=1):
         wherekv = {}
         items = self.changeitem(item)
+        print(wherekey)
         for i in wherekey:
             wherekv[i]=items[i]
+        print(items)
         wherekey = dict(wherekv)
         for i in wherekey:
             wherekey[i] = str(wherekey[i])
@@ -98,10 +100,12 @@ class sqlserver(object):
     def changeitem(self,item,changekey=False, changekeyToNull=[]):
         items = dict(item)
         for i in items.keys():
-            if type(items[i]) == type('str') and items[i]!="Null":
+            if type(items[i]) is str and items[i]!="Null":
                 items[i] = "'%s'" % item[i]
             elif items[i] == None or items[i] == "":
                 items[i] = "Null"
+            else:
+                items[i] = str(items[i])
         return items
     #insert操作
     @printsql
@@ -135,6 +139,7 @@ class sqlserver(object):
             map(lambda x: " = ".join([str(x[0]), str(x[1])]), dictlist))) + " , updatetime = '%s' , checktime = '%s'" % (
             datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
         wherekv = "where "+" and ".join(map(lambda x: " = ".join(x), wherekv.items()))
+#        sql = "update %s set updatetime = '%s' , checktime = '%s' %s" % (self.tableName, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), wherekey)
         sql = "update %s set %s %s" % (self.tableName, keysword, wherekv)
         self.sql = sql
         try:
@@ -157,7 +162,7 @@ class sqlserver(object):
         for i in wherekey:
             wherekv[i] = items[i]
         wherekey = "where "+" and ".join(map(lambda x: " = ".join(x), wherekv.items()))
-        sql = "update %s set updatetime = '%s' , checktime = '%s' %s" % (self.tableName, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), wherekey)
+        sql = "update %s set checktime = '%s' %s" % (self.tableName, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), wherekey)
         self.sql = sql
         try:
             self.cursor.execute(sql)
@@ -179,17 +184,20 @@ class sqlserver(object):
                         try:
                             x = float(x)
                             if x != y:
-                                return False
                                 print(x,y)
+                                return False
+                                
                         except:
                             y = float(y)
                             if x != y:
-                                return False
                                 print(x,y)
+                                return False
+                                
                     else:
                         if x!=y:
-                            return False
                             print(x,y)
+                            return False
+                            
                 return True
             
             itemlist = [x[1]for x in item.items()]
