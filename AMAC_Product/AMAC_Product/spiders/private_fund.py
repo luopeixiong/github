@@ -174,7 +174,7 @@ class PrivateFundSpider(scrapy.Spider):
                 'GSID': gsid}
         return data
     def start_requests(self):
-        for url in self.start_urls:
+        for url in self.start_urls:#[13:14]
             # print(url)
             if url == "http://gs.amac.org.cn/amac-infodisc/api/pof/fund":
                 url = "http://gs.amac.org.cn/amac-infodisc/api/pof/fund"+self.madedata(self.page,self.offset,self.rand)
@@ -185,7 +185,7 @@ class PrivateFundSpider(scrapy.Spider):
                                      headers = self.headers,
                                      callback=self.parse
                                      )
-            elif url == "http://ba.amac.org.cn/pages/amacWeb/user!list.action-1":
+            if url == "http://ba.amac.org.cn/pages/amacWeb/user!list.action-1":
                 data = self.madedata2(self.page1,self.size1)
                 yield scrapy.FormRequest("http://ba.amac.org.cn/pages/amacWeb/user!list.action",
                                          headers = self.headers1,
@@ -225,62 +225,62 @@ class PrivateFundSpider(scrapy.Spider):
                                          formdata=data,
                                          method="POST",
                                          callback=self.parse6)
-            elif url == "http://person.amac.org.cn/pages/registration/train-line-register!list.action":
-                data = self.madedata6(self.page6,self.size6)
-                # data = urllib.parse.urlencode(data)
-                yield scrapy.FormRequest("http://person.amac.org.cn/pages/registration/train-line-register!list.action",
-                                         headers=self.urlencodeheaders,
-                                         formdata=data,
-                                         method="POST",
-                                         callback=self.parse7)
-            elif url  == 'http://www.amac.org.cn/xxgs/cyjggs/jjxsjg/382714.shtml':
-                yield scrapy.Request(url,
-                                     headers = self.headers1,
-                                     callback=self.amacSaleparse)
-            elif url == 'http://www.amac.org.cn/xxgs/cyjggs/zfjsjg/382716.shtml':
-                yield scrapy.Request(url,
-                                     headers = self.headers1,
-                                     callback=self.amacpayparse)
-            elif url =='http://www.amac.org.cn/xxgs/zhgs/382728.shtml':
-                yield scrapy.Request(url,
-                                     headers=self.headers1,
-                                     callback=self.amacaccountparse)
-            elif url == 'http://www.amac.org.cn/xxgs/cyjggs/jjpjjg/382715.shtml':
-                yield scrapy.Request(url,
-                                     headers=self.headers1,
-                                     callback=self.amacevaluationparse)
-            elif url == 'http://www.amac.org.cn/xxgs/cyjggs/lssws/382717.shtml':
-                yield scrapy.Request(url,
-                                     headers=self.headers1,
-                                     callback=self.amaclawparse)
-            elif url == 'http://www.amac.org.cn/xxgs/cyjggs/hjsws/382718.shtml':
-                yield scrapy.Request(url,
-                                     headers=self.headers1,
-                                     callback=self.amacaccounting_firm_parse)
-            elif url == 'http://fo.amac.org.cn/amac/allNotice.do-1':
-                t="2"
-                data=self.madedata7(t,1)
-                yield scrapy.FormRequest('http://fo.amac.org.cn/amac/allNotice.do',
-                                         formdata=data,
-                                         headers = self.headers1,
-                                         meta = {'page':1,'t':t},
-                                         callback = self.parse8)
-            elif url == 'http://fo.amac.org.cn/amac/allNotice.do-2':
-                t = "3"
-                data = self.madedata7(t, 1)
-                yield scrapy.FormRequest('http://fo.amac.org.cn/amac/allNotice.do',
-                                         formdata=data,
-                                         headers=self.headers1,
-                                         meta={'page': 1, 't': t},
-                                         callback=self.parse9)
-            elif url == "http://fo.amac.org.cn/amac/allNotice.do-3":
-                t = "4"
-                data = self.madedata7(t, 1)
-                yield scrapy.FormRequest('http://fo.amac.org.cn/amac/allNotice.do',
-                                         formdata=data,
-                                         headers=self.headers1,
-                                         meta={'page': 1, 't': t},
-                                         callback=self.parse10)
+#            elif url == "http://person.amac.org.cn/pages/registration/train-line-register!list.action":
+#                data = self.madedata6(self.page6,self.size6)
+#                # data = urllib.parse.urlencode(data)
+#                yield scrapy.FormRequest("http://person.amac.org.cn/pages/registration/train-line-register!list.action",
+#                                         headers=self.urlencodeheaders,
+#                                         formdata=data,
+#                                         method="POST",
+#                                         callback=self.parse7)
+#            elif url  == 'http://www.amac.org.cn/xxgs/cyjggs/jjxsjg/382714.shtml':
+#                yield scrapy.Request(url,
+#                                     headers = self.headers1,
+#                                     callback=self.amacSaleparse)
+#            elif url == 'http://www.amac.org.cn/xxgs/cyjggs/zfjsjg/382716.shtml':
+#                yield scrapy.Request(url,
+#                                     headers = self.headers1,
+#                                     callback=self.amacpayparse)
+#            elif url =='http://www.amac.org.cn/xxgs/zhgs/382728.shtml':
+#                yield scrapy.Request(url,
+#                                     headers=self.headers1,
+#                                     callback=self.amacaccountparse)
+#            elif url == 'http://www.amac.org.cn/xxgs/cyjggs/jjpjjg/382715.shtml':
+#                yield scrapy.Request(url,
+#                                     headers=self.headers1,
+#                                     callback=self.amacevaluationparse)
+#            elif url == 'http://www.amac.org.cn/xxgs/cyjggs/lssws/382717.shtml':
+#                yield scrapy.Request(url,
+#                                     headers=self.headers1,
+#                                     callback=self.amaclawparse)
+#            elif url == 'http://www.amac.org.cn/xxgs/cyjggs/hjsws/382718.shtml':
+#                yield scrapy.Request(url,
+#                                     headers=self.headers1,
+#                                     callback=self.amacaccounting_firm_parse)
+#            elif url == 'http://fo.amac.org.cn/amac/allNotice.do-1':
+#                t="2"
+#                data=self.madedata7(t,1)
+#                yield scrapy.FormRequest('http://fo.amac.org.cn/amac/allNotice.do',
+#                                         formdata=data,
+#                                         headers = self.headers1,
+#                                         meta = {'page':1,'t':t},
+#                                         callback = self.parse8)
+#            elif url == 'http://fo.amac.org.cn/amac/allNotice.do-2':
+#                t = "3"
+#                data = self.madedata7(t, 1)
+#                yield scrapy.FormRequest('http://fo.amac.org.cn/amac/allNotice.do',
+#                                         formdata=data,
+#                                         headers=self.headers1,
+#                                         meta={'page': 1, 't': t},
+#                                         callback=self.parse9)
+#            elif url == "http://fo.amac.org.cn/amac/allNotice.do-3":
+#                t = "4"
+#                data = self.madedata7(t, 1)
+#                yield scrapy.FormRequest('http://fo.amac.org.cn/amac/allNotice.do',
+#                                         formdata=data,
+#                                         headers=self.headers1,
+#                                         meta={'page': 1, 't': t},
+#                                         callback=self.parse10)
     def parse10(self, response):
         t =     ['t']
         thispage = response.meta['page']
@@ -819,7 +819,7 @@ class PrivateFundSpider(scrapy.Spider):
                    result[config['En']] = S.replace_invalid_char(result[config['En']])
                    result[config['En']] = S.changdt(result[config['En']],config['dt'])
             item['keys'] = ['abs_recode_No']
-            item['db'] = 'amac_abs_pro'
+            item['db'] = 'AMAC.ABS_Prod'
             item['result'] = result
             yield item
         if self.page4<self.totalPages4:
@@ -916,11 +916,11 @@ class PrivateFundSpider(scrapy.Spider):
             for config in configs:
                 result[config['En']] = info[config['v']]
                 if result[config['En']]:
-                   result[config['En']] = S.replace_invalid_char(result[config['En']])
+                   result[config['En']] = S.replace_all(result[config['En']])
                    result[config['En']] = S.changdt(result[config['En']],config['dt'])
             item['result'] = result
             item['keys'] = ['pro_No']
-            item['db'] = "amac_securities_pro"
+            item['db'] = "AMAC.Securuties_Prod"
             yield item
         if self.page1 < self.totalPages1:
             self.page1+=1
@@ -958,8 +958,7 @@ class PrivateFundSpider(scrapy.Spider):
             result['managerID'] = result['managerID'].split("/")[-1].replace(".html","")
             
             fund_pro_url = self.fundUrl.format(fundID=jsons.get("id"))
-            headers1 = {"User-Agent":generate_user_agent(),
-                       "Cache-Control":"no-cache"
+            headers1 = {"User-Agent":generate_user_agent()
                        }
             
             yield scrapy.Request(fund_pro_url,
@@ -1024,8 +1023,19 @@ class PrivateFundSpider(scrapy.Spider):
             if result[config['En']]:
                 result[config['En']] = S.replace_all(result[config['En']])
                 
-        # print(result)
+        print(result)
+        if result['fundName']:
+            pass
+        else:
+            yield scrapy.Request(response.url,
+                                 method = "GET",
+#                                 meta = {'result':result},
+                                 headers = self.headers1,
+                                 dont_filter=True,
+                                 callback = self.fund_pro_parse)
+            return False
         # print(re.findall("应披露(\d+)条，按时披露(\d+)条，未披露(\d+)条",result['month_None_reveal'])[0])
+        print(re.findall("应披露(\d+)条，按时披露(\d+)条，未披露(\d+)条",result['month_None_reveal']))
         (result['month_should_reveal'],result['month_reveal_intime'],result['month_None_reveal'],) = re.findall("应披露(\d+)条，按时披露(\d+)条，未披露(\d+)条",result['month_None_reveal'])[0]
         (result['halfYear_should_reveal'],result['halfYear_reveal_intime'],result['halfYear_None_reveal'],)= re.findall("应披露(\d+)条，按时披露(\d+)条，未披露(\d+)条",result['halfYear_None_reveal'])[0]
         (result['quarter_should_reveal'],result['quarter_reveal_intime'],result['quarter_None_reveal'],)= re.findall("应披露(\d+)条，按时披露(\d+)条，未披露(\d+)条",result['quarter_None_reveal'])[0]
@@ -1037,8 +1047,9 @@ class PrivateFundSpider(scrapy.Spider):
         result['fundID'] = response.url.split("/")[-1][:-5] 
         result['managerID'] = result['managerID'].split("/")[-1][:-5] 
         item['result'] = result
-        item['db'] = 'amac_fund_pro'
+        item['db'] = 'AMAC.Fund_Prod'
         item['keys'] = ['fundNo']
+        
         yield item
     def directfundparse(self, response):
         '''
@@ -1067,7 +1078,7 @@ class PrivateFundSpider(scrapy.Spider):
                    result[config['En']] = S.replace_invalid_char(result[config['En']])
                    result[config['En']] = S.changdt(result[config['En']],config['dt'])
         result['pro_id'] =  response.url.split('/')[-1][:-5]
-        item['db'] = 'amac_direct_fund'
+        item['db'] = 'AMAC.Direct_Fund'
         item['keys'] = ['pro_No']
         item['result']=result
         yield item
@@ -1101,9 +1112,10 @@ class PrivateFundSpider(scrapy.Spider):
                 
         result['pro_id'] = response.url.split("/")[-1][:-5]
         item['keys'] = ['account_name']
-        item['db'] = 'amac_account_pro'
+        item['db'] = 'AMAC.Account_Prod'
         item['result'] = result
-        yield item
+        if result['account_name']:
+            yield item
     def qhparse(self, response):
         '''
         基金业协会-期货资产管理计划
@@ -1121,7 +1133,7 @@ class PrivateFundSpider(scrapy.Spider):
             {'n': '募集规模（万元）', 'En': 'collection_scale', 't': 'json', 'v': 'MPI_TOTAL_MONEY', 'dt': 'int'},
             {'n': '是否结构化', 'En': 'is_structured', 't': 'json', 'v': 'SFJGH', 'dt': ''},
             {'n': '初始委托人数量', 'En': 'start_client_nums', 't': 'json', 'v': 'MPI_PARTICIPATION_USER', 'dt': 'int'},
-            {'n': '投资范围', 'En': 'investment_fields', 't': 'json', 'v': 'MPI_GROUP_RATIO', 'dt': ''},
+            {'n': '投资范围', 'En': 'MPI_GROUP_RATIO', 't': 'json', 'v': 'MPI_GROUP_RATIO', 'dt': ''},
             {'n': '产品ID', 'En': 'pro_id', 't': 'meta', 'v': 'MPI_ID', 'dt': ''}
         ]
         result = dict()
@@ -1133,6 +1145,6 @@ class PrivateFundSpider(scrapy.Spider):
                     result[config['En']] = S.changdt(result[config['En']],config['dt'])
         result['pro_id'] = response.meta['MPI_ID']
         item['keys'] = ['pro_No']
-        item['db'] = 'amac_Futures_manage'
+        item['db'] = 'AMAC.Futures_Prod'
         item['result'] = result
         yield item
