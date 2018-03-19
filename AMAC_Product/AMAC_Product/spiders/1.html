@@ -1,0 +1,844 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<meta http-equiv="Cache-Control" content="no-store"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="0"/>
+<script src="/cfainfo/js/jquery.js" type="text/javascript"></script>
+<script src="/cfainfo/js/table.js" type="text/javascript"></script>
+<script src="/cfainfo/js/jqueryPrintArea.js"></script>
+<script src="/cfainfo/js/print.js"></script>
+<script src="/cfainfo/js/formValidator.js" type="text/javascript" charset="UTF-8"></script>
+<script src="/cfainfo/js/formValidatorRegex.js" type="text/javascript" charset="UTF-8"></script>
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>中国期货业协会-首页</title>
+<link href="css/qihuo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+    	$(document).ready(function(){
+//---------------20160218 add begin---------------------//
+function getCookie(objName){
+	var cookieArr = document.cookie.split(';');
+	for(var i=0;i<cookieArr.length;i++){
+		var temp = cookieArr[i].split("=");
+		if($.trim(temp[0])==objName){
+			return unescape(temp[1]);
+		}
+	}
+}
+var url = location.href;
+var urlArr = url.split("all=");
+var cookieName = getCookie('all');
+if(cookieName != ''){
+	$('#homePage').attr('name',cookieName);
+	$('#prevPage').attr('name',cookieName);
+	$('#nextPage').attr('name',cookieName);
+	$('#lastPage').attr('name',cookieName);
+        $('#selectType').attr('value',cookieName);
+}
+if(urlArr.length == 2){
+if(urlArr[1] != ''){
+        document.cookie='all='+urlArr[1];
+	$('#homePage').attr('name',urlArr[1]);
+	$('#prevPage').attr('name',urlArr[1]);
+	$('#nextPage').attr('name',urlArr[1]);
+	$('#lastPage').attr('name',urlArr[1]);
+        $('#selectType').attr('value',urlArr[1]);
+}
+}
+
+
+//---------------20160218 add end---------------------//
+			$("a[id^=future]").each(function(){
+				$(this).click(function(){
+					var type=$(this).attr("name");
+					document.cookie='all='+type;//20160218+add
+					$("#testForm").attr("action","organbaseinfoServlet").append($("<input type='text' name='all' value='"+type+"'>")).submit();
+				});
+			});
+			$("a[name='info']").each(function(){
+				$(this).click(function(event){
+					$("#organid").val($(this).parent("td").prev().text());
+					$("#name").val($(this).text());
+					$("#one").attr("target","_blank").submit();
+				});
+			});
+			$("a[name='moneyinfo']").each(function(){
+    			$(this).click(function(){
+    				var seid=$(this).parent('td').prev().text();
+    				var slectall=$("#selectAll");
+    				slectall.attr("action","personOfAssetmanageinfoServlet");
+    				slectall.attr('target','_blank');
+    				var orgid=$("#selectorgid");
+    				slectall.children().remove();
+    				slectall.append($("<input type='hidden' id='selectorgid' name='organid' value='"+seid+"'>"));
+    				slectall.submit();
+    			});
+    		});
+			$("#assetmanage").click(function(){
+				$("#testForm").attr("action","assetmanageinfoServlet").append($("<input type='text' name='all'>")).submit();
+			});
+			$("#currentPage").text('2'+"/"+'8');
+			if(false){
+				$("#nextPage").attr("href","#");
+				$("#lastPage").attr("href","#");
+			}
+			if(false){
+				$("#prevPage").attr("href","#");
+				$("#homePage").attr("href","#");
+			}
+			$("#nextPage").click(function(){
+				if(('2'+1)<'8'){
+					$("#current").val(2+1);
+					var type=$(this).attr("name");
+					if(''){
+						$("#testForm").attr("action",''+"Servlet").append($("<input type='text' name='all' value='"+type+"'>")).submit();
+					}else{
+						$("#testForm").attr("action","organbaseinfoServlet").append($("<input type='text' name='all' value='"+type+"'>")).submit();
+					}
+				}
+			});
+			$("#prevPage").click(function(){
+				if(('2'-1)>0){
+					$("#current").val(2-1);
+					var type=$(this).attr("name");
+					if(''){
+						$("#testForm").attr("action",''+"Servlet").append($("<input type='text' name='all' value='"+type+"'>")).submit();
+					}else{
+						$("#testForm").attr("action","organbaseinfoServlet").append($("<input type='text' name='all' value='"+type+"'>")).submit();
+					}
+				}
+			});
+			$("#lastPage").click(function(){
+				$("#current").val(8);
+				var type=$(this).attr("name");
+				if(''){
+					$("#testForm").attr("action",''+"Servlet").append($("<input type='text' name='all' value='"+type+"'>")).submit();
+				}else{
+					$("#testForm").attr("action","organbaseinfoServlet").append($("<input type='text' name='all' value='"+type+"'>")).submit();
+				}
+			});
+			$("#homePage").click(function(){
+				$("#current").val("1");
+				var type=$(this).attr("name");
+				if(''){
+					$("#testForm").attr("action",''+"Servlet").append($("<input type='text' name='all' value='"+type+"'>")).submit();
+				}else{
+					$("#testForm").attr("action","organbaseinfoServlet").append($("<input type='text' name='all' value='"+type+"'>")).submit();
+				}
+			});
+			$("#select1").click(function(){
+				var selectval=$("#regulatorNames option:selected").val();
+				var inputval=$("<input type='hidden' name='regulatorName'>").attr("value",selectval);
+				$("#requirement").append(inputval);
+				$("#requirement").submit();
+			});
+			$("#select2").click(function(){
+				var orgName=$(this).prev().val();
+				$("#requirement").append($("<input type='hidden' name='orgName' value='"+orgName+"'>")).submit();;
+			});
+			$("#select3").click(function(){
+				$("#requirement").attr("action","personinfoServlet");
+				$("#requirement").append($("<input type='hidden' name='personName' value='"+$("#personName").val()+"'>"))
+				.append($("<input type='hidden' name='personNum' value='"+$("#personNum").val()+"'>"))
+				.append($("<input type='hidden' name='selectType' value='check'>"));
+				$("#requirement").attr("method","").submit();
+			});
+			$("#cardidBut").click(function(){
+				$("#requirement").attr("action","personinfoServlet")
+				.append($("<input type='hidden' name='cardid' value='"+$("#cardid").val()+"'>")).append($("<input type='hidden' name='selectType' value='check'>"));
+				if($("#cardid").val){
+					$("#requirement").submit();
+				}
+			});	
+    	})
+    </script>
+</head>
+
+<body>
+<!--=================================top======================================-->
+<div class="top">
+	<div class="riqi" id="time"> 
+<SCRIPT>document.getElementById('time').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);</SCRIPT>  
+</div>
+    <ul class="huiyuan">
+    <li>&nbsp;&nbsp;<!--用户名<input name="" type="text" class="wenben" />--></li>
+    <!--<li>密码<input name="" type="text" class="wenben" /></li>-->
+    <li><!--<input name="" type="button" value="登录" class="denglu" />--><input name="" onclick="window.location.href='http://eng.cfachina.org/'" type="button" value="ENGLISH" class="English" />&nbsp;&nbsp;&nbsp;<a href="<trs_channel id='网站地图' field='_recurl' autolink='false' urlisabs='true' />">网站地图</a></li>
+    </ul>
+</div>
+<!--=================================banner======================================-->
+<div class="banner"><img src="image/index_12.png" width="1000" height="140" /></div>
+
+<div class="main" >
+<!--=================================nav======================================-->
+<script language="javascript" type="text/javascript">
+function Display(id)
+{
+    document.getElementById(id).style.display="block";
+}
+function Hidden(id)
+{
+    document.getElementById(id).style.display="none";
+}
+</script>
+<ul class="nav">                                                   
+<li><a href="/">首页</a></li>
+<li><a href="http://www.cfachina.org/XHJS/" target="_blank" onMouseOut="Hidden('1')" onMouseOver="Display('1')">协会介绍</a></li>
+<li><a href="http://www.cfachina.org/ggxw/" target="_blank" onMouseOut="Hidden('2')" onMouseOver="Display('2')">公告新闻</a></li>
+
+<li><a href="http://www.cfachina.org/zggl/" target="_blank" onMouseOut="Hidden('11')" onMouseOver="Display('11')">资格管理</a></li>
+<li><a href="http://www.cfachina.org/zgksnew/" target="_blank" onMouseOut="Hidden('3')" onMouseOver="Display('3')">资格考试</a></li>
+<li><a href="http://www.cfachina.org/ggcsnew/" target="_blank" onMouseOut="Hidden('4')" onMouseOver="Display('4')">高管测试</a></li>
+
+<li><a href="http://www.cfachina.org/PXXY/" target="_blank" onMouseOut="Hidden('5')" onMouseOver="Display('5')">培训学苑</a></li>
+<li><a href="http://edu.cfachina.org/" target="_blank">投资者教育</a></li>
+<li><a href="http://www.cfachina.org/ZCFG/FL/" target="_blank" onMouseOut="Hidden('6')" onMouseOver="Display('6')">政策法规</a></li>
+<li><a href="http://www.cfachina.org/CXFW/" target="_blank" onMouseOut="Hidden('9')" onMouseOver="Display('9')">创新服务</a></li>
+<li><a href="http://www.cfachina.org/yjycb/" target="_blank" onMouseOut="Hidden('7')" onMouseOver="Display('7')">研究与出版</a></li>
+<li><a href="http://www.cfachina.org/gjjl/" target="_blank" onMouseOut="Hidden('8')" onMouseOver="Display('8')">国际交流</a></li>
+<li><a href="http://www.cfachina.org/sy11/yx/" target="_blank">协会邮箱</a></li>
+<!--<li><a href="#" onMouseOut="Hidden('9')" onMouseOver="Display('9')">网站地图</a></li>-->
+</ul>            
+<div style="height:0px;position:relative;clear:both;width:994px; margin:0px auto;z-index:999;top:0px; right:0px; top:0px;">
+	<div id = "1" style="left:60px;top:0px;"onMouseMove="Display('1')" onMouseOut="Hidden('1')" class="ernav">
+			<a href="http://www.cfachina.org/XHJS/XHJJ/" target="_blank">协会简介</a><a href="http://www.cfachina.org/XHJS/XHZC/" target="_blank">协会章程</a><a href="http://www.cfachina.org/XHJS/XHLD/" target="_blank">协会领导</a><a href="http://www.cfachina.org/XHJS/XHHY/" target="_blank">协会会员</a><a href="http://www.cfachina.org/XHJS/LSH/" target="_blank">理事会</a><a href="http://www.cfachina.org/XHJS/ZYWYH/" target="_blank">专业委员会</a><a href="http://www.cfachina.org/XHJS/ZNBM/" target="_blank">职能部门</a><a href="http://www.cfachina.org/XHJS/xhnb/" target="_blank">协会年报</a><a href="http://www.cfachina.org/XHJS/LXWM/" target="_blank">联系我们</a>
+    </div>   
+	<div id = "2" style="left:135px;top:0px;"onMouseMove="Display('2')" onMouseOut="Hidden('2')" class="ernav">
+			<a href="http://www.cfachina.org/ggxw/XHGG/" target="_blank">通知公告</a>
+                        <a href="http://www.cfachina.org/ggxw/xhdt/" target="_blank">协会新闻</a>
+                        <a href="http://www.cfachina.org/ggxw/XYDT/" target="_blank">会员通告</a>
+                        <a href="http://www.cfachina.org/ggxw/hytg/" target="_blank">会员动态</a>
+                        <a href="http://www.cfachina.org/XYRCZP/" target="_blank">会员招聘</a>
+                        <a href="http://www.cfachina.org/ggxw/LXHYDT/" target="_blank">地方协会</a>
+                        <a href="http://www.cfachina.org/ggxw/MTKQS/" target="_blank">媒体看期市</a>
+    </div>
+    <div id = "11" style="left:211px;top:0px;"onMouseMove="Display('11')" onMouseOut="Hidden('11')" class="ernav">
+			<a href="http://www.cfachina.org/zggl/glzd/" target="_blank">管理制度</a><a href="http://www.cfachina.org/zggl/glgg/" target="_blank">管理公告</a><a href="http://db.cfachina.org/CFA/" target="_blank">资格申请</a><a href="http://www.cfachina.org/cfainfo/" target="_blank">资格公示</a><a href="http://www.cfachina.org/cfainfo/checkCompetency" target="_blank">资格检查</a><a href="http://www.cfachina.org/zggl/cjwt/" target="_blank">常见问答</a>
+    </div>
+	<div id = "3" style="left:287px;top:0px;"onMouseMove="Display('3')" onMouseOut="Hidden('3')" class="ernav">
+			<a href="http://www.cfachina.org/zgksnew/kszd/" target="_blank">考试制度</a><a href="http://www.cfachina.org/zgksnew/ksgg/" target="_blank">考试公告</a><a href="http://www.cfachina.org/zgksnew/ksdg/" target="_blank">考试大纲</a><a href="http://cfa.ata.net.cn/" target="_blank">考试报名</a><a href="http://www.cfachina.org/zgksnew/cjcx/" target="_blank">成绩查询</a><a href="http://www.cfachina.org/zgksnew/cjwd/" target="_blank">常见问答</a>
+    </div>
+    <div id = "4" style="left:363px;top:0px;"onMouseMove="Display('4')" onMouseOut="Hidden('4')" class="ernav">
+			<a href="http://www.cfachina.org/ggcsnew/cszd/" target="_blank">测试制度</a><a href="http://www.cfachina.org/ggcsnew/csgg/" target="_blank">测试公告</a><a href="http://www.cfachina.org/ggcsnew/csdg/" target="_blank">测试大纲</a><a href="http://www.cfachina.org/cfabm/live/main_list!fillList.action" target="_blank">测试报名</a><a href="http://www.cfachina.org/ggcsnew/cjcx/" target="_blank">成绩查询</a><a href="http://www.cfachina.org/ggcsnew/cjwd/" target="_blank">常见问答</a>
+    </div>
+	<div id = "5" style="left:439px;top:0px;"onMouseMove="Display('5')" onMouseOut="Hidden('5')" class="ernav">
+			<a href="http://www.cfachina.org/PXXY/PXTZ/" target="_blank">培训通知</a><a href="http://www.cfachina.org/PXXY/PXJL/" target="_blank">培训记录</a><a href="http://www.cfachina.org/PXXY/CKZL/" target="_blank">参考资料</a><a href="http://www.cfachina.org/wlpx/" target="_blank">网上后续培训</a><a href="http://www.cfachina.org/PXXY/PXGZ/" target="_blank">培训规则</a><a href="http://www.cfachina.org/PXXY/pxzsdytd/" target="_blank">培训证书打印通道</a><a href="http://www.cfachina.org/cfainfo/traindateinfo.jsp" target="_blank">培训学时查询</a>
+    </div> 
+<div id = "10" style="left:520px;top:0px;"onMouseMove="Display('10')" onMouseOut="Hidden('10')" class="ernav">
+			<a href="http://www.cfachina.org/tjyd/tjzx/" target="_blank">投教资讯</a>
+                        <a href="http://www.cfachina.org/yjycb/cbw/xlcs/" target="_blank">投教产品</a>
+                        
+                        
+                        <a href="http://www.cfachina.org/tjyd/tzzjy/zlzx/" target="_blank">资料中心</a>
+                        
+                        <a href="http://www.cfachina.org/cfainfo/addressofmember.jsp" target="_blank">合法机构</a>
+                        <a href="http://www.cfachina.org/ts/index.html" target="_blank">网上投诉</a>
+    </div>
+	<div id = "6" style="left:603px;top:0px;"onMouseMove="Display('6')" onMouseOut="Hidden('6')" class="ernav">
+			<a href="http://www.cfachina.org/ZCFG/FL/" target="_blank">法律法规</a><a href="http://www.cfachina.org/ZCFG/XZFG/" target="_blank">行政法规</a><a href="http://www.cfachina.org/ZCFG/BMGZ/" target="_blank">部门规章</a><a href="http://www.cfachina.org/ZCFG/ZLGZ/" target="_blank">自律规则</a>
+    </div> 
+   <div id = "9" style="right:222px;top:0px;"onMouseMove="Display('9')" onMouseOut="Hidden('9')"  class="ernav">
+			<a href="http://www.cfachina.org/CXFW/zgsyw/" target="_blank">风险管理公司</a><a href="http://www.cfachina.org/CXFW/zcglyw/" target="_blank">资产管理业务</a>
+    </div>
+    <div id = "7" style="right:169px;top:0px;"onMouseMove="Display('7')" onMouseOut="Hidden('7')" class="ernav">
+			<a href="http://www.cfachina.org/yjycb/kygl/" target="_blank">科研管理</a><a href="http://www.cfachina.org/yjycb/cbw/" target="_blank">出版物</a><a href="http://www.cfachina.org/yjycb/hysj/" target="_blank">统计数据</a>
+    </div>
+    <div id = "8" style="right:33px;top:0px;"onMouseMove="Display('8')" onMouseOut="Hidden('8')" class="ernav">
+			<a href="http://www.cfachina.org/gjjl/gjjlhz/" target="_blank">国际交流合作</a><a href="http://www.cfachina.org/gjjl/jwtydt/" target="_blank">境外同业动态</a><a href="http://www.cfachina.org/gjjl/gjxgflfg/" target="_blank">国际相关法律法规</a><a href="http://www.cfachina.org/gjjl/xggjzz/" target="_blank">相关国际组织</a><a href="http://www.cfachina.org/gjjl/gjhyxx/" target="_blank">国际会议信息</a>
+    </div>
+
+ 
+</div>
+<!--=================================main======================================-->
+<div class="gongshibj">
+	<!--~~~~~~~~~~~~~~~~~~~~~~~main_left~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div class="gs_left">
+    	<div><img src="image/xinxi_03.gif" width="214" height="61" /></div>
+        <ul class="gs_nav">
+        <li><a id="future" style="cursor:pointer" name="organbaseinfo">期货公司基本情况</a></li>
+        <li><a id="future1" style="cursor:pointer" name="organhisinfo">期货公司历史情况</a></li>
+        <li><a id="future2" style="cursor:pointer" name="supervisorinfo">期货公司高管人员信息</a></li>
+        <li><a id="future3" style="cursor:pointer" name="organbranchinfo">期货公司分支机构情况</a></li>
+        <li><a id="future4" style="cursor:pointer" name="personinfo">期货公司从业人员信息</a></li>
+        <li><a id="future5" style="cursor:pointer" name="organshareholderinfo">期货公司股东信息</a></li>
+        <li><a id="future6" style="cursor:pointer" name="organcreditinfo">期货公司诚信记录信息</a></li>
+        <li><a id="future7" style="cursor:pointer" name="organfinancialinfo">期货公司财务信息</a></li>
+        <li><a id="assetmanage" style="cursor:pointer" name="assetmanageinfo">期货公司资产管理业务信息</a></li>
+        <li><a id="future8" style="cursor:pointer" name="subdebtmonthinfo">期货公司次级债信息</a></li>
+        <li><a style="cursor:pointer" href="/cwpl/0000NDQHGSCWXX1/">期货公司年度财务信息披露</a></li>
+        <li><a style="cursor:pointer" href="/kscj/htbags/htbags/index.html">期货公司合同备案信息</a></li>
+        <li><a style="cursor:pointer" href="/wskh/201509/t20150925_1877795.html">期货公司网上开户信息</a></li>
+        <!-- <li><a href="#">期货市场月度成交情况</a></li>-->
+        </ul>
+    </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~main_right~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <form id="one" action="organbaseinfoOneServlet" method="post">
+  		<input type="hidden" id="name" name="name"/>
+  		<input type="hidden" id="organid" name="organid"/>
+                <input type="hidden" name="selectType" id="selectType"/>
+  		<!--<input type="hidden" name="selectType" value="personinfo"/>-->
+  	</form>
+    <form id="requirement" action="singleOrgServlet" method="post"></form>
+    <form id="selectAll" action=""></form>
+    <div class="gs_right">
+    	<!--~~~~~~~~~~~~~~~~~main_right_one~~~~~~~~~~~~~~~~~~~-->
+   	  <div class="gsr_title">期货公司所属证监局：&nbsp;
+   	  <select name="regulatorNames" id="regulatorNames">
+   	  	<option value="-1">请选择</option>
+          
+    		<option value="reg_02">上海证监局</option>
+    	  
+    		<option value="reg_06">深圳证监局</option>
+    	  
+    		<option value="reg_11">浙江证监局</option>
+    	  
+    		<option value="reg_10">江苏证监局</option>
+    	  
+    		<option value="reg_12">安徽证监局</option>
+    	  
+    		<option value="reg_01">北京证监局</option>
+    	  
+    		<option value="reg_05">大连证监局</option>
+    	  
+    		<option value="reg_26">甘肃证监局</option>
+    	  
+    		<option value="reg_19">广东证监局</option>
+    	  
+    		<option value="reg_21">海南证监局</option>
+    	  
+    		<option value="reg_30">河北证监局</option>
+    	  
+    		<option value="reg_16">河南证监局</option>
+    	  
+    		<option value="reg_35">黑龙江证监局</option>
+    	  
+    		<option value="reg_17">湖北证监局</option>
+    	  
+    		<option value="reg_18">湖南证监局</option>
+    	  
+    		<option value="reg_34">吉林证监局</option>
+    	  
+    		<option value="reg_14">江西证监局</option>
+    	  
+    		<option value="reg_33">辽宁证监局</option>
+    	  
+    		<option value="reg_32">内蒙古证监局</option>
+    	  
+    		<option value="reg_09">宁波证监局</option>
+    	  
+    		<option value="reg_07">青岛证监局</option>
+    	  
+    		<option value="reg_28">青海证监局</option>
+    	  
+    		<option value="reg_15">山东证监局</option>
+    	  
+    		<option value="reg_31">山西证监局</option>
+    	  
+    		<option value="reg_39">陕西证监局</option>
+    	  
+    		<option value="reg_22">四川证监局</option>
+    	  
+    		<option value="reg_03">天津证监局</option>
+    	  
+    		<option value="reg_08">厦门证监局</option>
+    	  
+    		<option value="reg_29">新疆证监局</option>
+    	  
+    		<option value="reg_24">云南证监局</option>
+    	  
+    		<option value="reg_04">重庆证监局</option>
+    	  
+    		<option value="reg_13">福建证监局</option>
+    	  
+    		<option value="reg_20">广西证监局</option>
+    	  
+    		<option value="reg_23">贵州证监局</option>
+    	  
+    		<option value="reg_25">西藏证监局</option>
+    	  
+    		<option value="reg_27">宁夏证监局</option>
+    	  
+        </select><input type="button" name="select1" id="select1" value="提交" class="gs_serch" /><span class="gsx_span"></span>期货公司名称关键字：<input type="text" name="textfield" id="textfield" /><input type="button" name="select2" id="select2" value="提交" class="gs_serch" />
+        </div>
+      
+      <div class="gsr_title gsr_wudi">
+      	姓名：&nbsp;<input type="text" name="personName" id="personName" class="gs_name" />&nbsp;&nbsp;
+      	从业资格号：<input type="text" name="personNum" id="personNum" />
+      	<input type="button" name="select3" id="select3" value="提交" class="gs_serch" />
+	身份证号：<input type="text" id="cardid"/><input type="button" id="cardidBut" value="查找"/>
+        </div>
+      
+        <!--~~~~~~~~~~~~~~~~~main_right_two~~~~~~~~~~~~~~~~~~~-->
+        <div class="gsmr_two">
+        
+		
+		
+	        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background:#dedddd" id="cominfos">
+	        <tr>
+	        	<td width="50%">
+	        		<table width="100%" border="0" cellspacing="1" cellpadding="0" style="background:#dedddd">
+	        			<tr>
+						    <td width="18%" height="33" align="center" valign="middle" bgcolor="#FFFFFF"> 机构编号 </td>
+						    <td width="60%" align="left" valign="middle" bgcolor="#FFFFFF"> &nbsp;机构名称 </td>
+						    <td width="20%" align="center" valign="middle" bgcolor="#FFFFFF"> 从业人员数 </td>
+						</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01026 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;民生期货有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">143</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01028 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;鑫鼎盛期货有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">83</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01030 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;九州期货有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">39</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01033 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;江信国盛期货有限责任公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">52</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01035 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;中融汇信期货有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">73</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01037 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;兴证期货有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">438</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01040 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;天鸿期货经纪有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">50</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01044 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;中投天琪期货有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">141</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01047 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;天风期货股份有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">108</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01049 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;渤海期货股份有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">181</a></td>
+							</tr>
+						
+	        		</table>
+	        	</td>
+	        	
+	        	<td>
+	        		<table width="100%" border="0" cellspacing="1" cellpadding="0" style="background:#dedddd">
+	        			<tr>
+						    <td width="18%" height="33" align="center" valign="middle" bgcolor="#FFFFFF"> 机构编号 </td>
+						    <td width="60%" align="left" valign="middle" bgcolor="#FFFFFF"> &nbsp;机构名称 </td>
+						    <td width="20%" align="center" valign="middle" bgcolor="#FFFFFF"> 从业人员数 </td>
+						</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01027 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;和合期货有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">84</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01029 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;深圳瑞龙期货有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">84</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01032 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;江海汇鑫期货有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">100</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01034 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;天富期货有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">52</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01036 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;大连良运期货经纪有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">62</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01038 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;晟鑫期货经纪有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">102</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01043 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;大通期货经纪有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">35</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01046 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;银河期货有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">671</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01048 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;中国国际期货有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">319</a></td>
+							</tr>
+						
+							<tr>
+							    <td height="33" align="center" valign="middle" bgcolor="#FFFFFF"> G01050 </td>
+							    <td align="left" valign="middle" bgcolor="#FFFFFF"><a href="#" name="info">&nbsp;国富期货有限公司</a></td>
+							    <td align="center" valign="middle" bgcolor="#FFFFFF"><a style="cursor:pointer">119</a></td>
+							</tr>
+						
+						
+	        		</table>
+	        	</td>
+	        	
+	        </tr>
+		</table>
+		
+		
+	
+        </div>
+        <!--~~~~~~~~~~~~~~~~~main_right_two~~~~~~~~~~~~~~~~~~~-->
+        <ul class="yema">
+        <li>当前第[<span id="currentPage"></span>]页</li>
+        <li><a href="javascript:void(0);" id="homePage">首页</a></li>
+        <li><a href="javascript:void(0);" id="prevPage">上一页</a></li>
+        <li><a href="javascript:void(0);" id="nextPage">下一页</a></li>
+        <li><a href="javascript:void(0);" id="lastPage">末页</a></li>
+        <li>共[<span>150</span>]条数据</li>
+    </ul>
+        <!--~~~~~~~~~~~~~~~~~main_right_two~~~~~~~~~~~~~~~~~~~-->
+    
+    </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~main_right~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+  
+<div class="clear"></div>  
+</div>
+<!--=================================main======================================-->
+
+</div>
+<!--=================================bottom======================================-->
+<div class="bottom">
+建议使用 1024×768 分辨率、IE6.0以上版本进行访问，低版本IE将不能正常浏览 版权所有@2001-2006中国期货业协会 CFA All Rights Reserved<br />
+京ICP备05047118号 京公网安备110102001604 北京市西城区金融大街33号通泰大厦C座八层 邮编:100140<br />
+</div>
+<!--=================================bottom======================================-->
+    <form id="testForm" action="testServlet" method="post">
+    	<input type="hidden" id="current" name="currentPage" value="1"/>
+  		<input type="hidden" id="size" name="pageSize" value="20"/>
+    </form>
+    <!-- <input type="button" id="future" name="organbaseinfo" value="期货公司基本情况"/>
+    <input type="button" id="future1" name="organhisinfo" value="期货公司历史情况"/>
+    <input type="button" id="future2" name="supervisorinfo" value="期货公司高管人员情况"/>
+    <input type="button" id="future3" name="organbranchinfo" value="期货公司分支机构情况"/>
+    <input type="button" id="future4" name="personinfo" value="期货公司从业人员情况"/>
+    <input type="button" id="future5" name="organshareholderinfo" value="期货公司股东信息"/>
+    <input type="button" id="future6" name="organcreditinfo" value="期货公司诚信记录信息"/>
+    <input type="button" id="future7" name="organfinancialinfo" value="期货公司财务信息"/>
+    <input type="button" id="assetmanage" name="assetmanageinfo" value="期货公司资产管理业务信息"/> <a href="/cfainfo/addressofmember.jsp">会员分布</a> 
+    
+
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<meta http-equiv="Cache-Control" content="no-store"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="0"/>
+<script src="/cfainfo/js/jquery.js" type="text/javascript"></script>
+<script src="/cfainfo/js/table.js" type="text/javascript"></script>
+<script src="/cfainfo/js/jqueryPrintArea.js"></script>
+<script src="/cfainfo/js/print.js"></script>
+<script src="/cfainfo/js/formValidator.js" type="text/javascript" charset="UTF-8"></script>
+<script src="/cfainfo/js/formValidatorRegex.js" type="text/javascript" charset="UTF-8"></script>
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>My JSP 'Organbaseinfo.jsp' starting page</title>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("a[href='#']").each(function(){
+				$(this).click(function(){
+					$("#organid").val($(this).attr("title"));
+					$("#name").val($(this).text());
+					$("#one").submit();
+				});
+			});
+			$("#select1").click(function(){
+				$("#requirement").append($("<input type='hidden' name='regulatorName' value='"+$('#regulatorName :selected').val()+"'>")).submit();
+			});
+			$("#select2").click(function(){
+				var orgName=$(this).prev().val();
+				$("#requirement").append($("<input type='hidden' name='orgName' value='"+orgName+"'>")).submit();;
+			});
+			$("#select3").click(function(){
+				$("#requirement").attr("action","personinfoServlet");
+				$("#requirement").append($("<input type='hidden' name='personName' value='"+$("#personName").val()+"'>"))
+				.append($("<input type='hidden' name='personNum' value='"+$("#personNum").val()+"'>"));
+				$("#requirement").submit();
+			});
+		})
+	</script>
+  </head>
+  
+  <body>
+  	<form id="one" action="organbaseinfoOneServlet" method="post">
+  		<input type="hidden" id="name" name="name"/>
+  		<input type="hidden" id="organid" name="organid"/>
+  		<input type="hidden" name="selectType" value="personinfo"/>
+  	</form>
+    期货公司所属证监局<select id="regulatorName">
+    	<option value="-1">...请选择...</option>
+    	
+    		<option value="reg_02">上海证监局</option>
+    	
+    		<option value="reg_06">深圳证监局</option>
+    	
+    		<option value="reg_11">浙江证监局</option>
+    	
+    		<option value="reg_10">江苏证监局</option>
+    	
+    		<option value="reg_12">安徽证监局</option>
+    	
+    		<option value="reg_01">北京证监局</option>
+    	
+    		<option value="reg_05">大连证监局</option>
+    	
+    		<option value="reg_26">甘肃证监局</option>
+    	
+    		<option value="reg_19">广东证监局</option>
+    	
+    		<option value="reg_21">海南证监局</option>
+    	
+    		<option value="reg_30">河北证监局</option>
+    	
+    		<option value="reg_16">河南证监局</option>
+    	
+    		<option value="reg_35">黑龙江证监局</option>
+    	
+    		<option value="reg_17">湖北证监局</option>
+    	
+    		<option value="reg_18">湖南证监局</option>
+    	
+    		<option value="reg_34">吉林证监局</option>
+    	
+    		<option value="reg_14">江西证监局</option>
+    	
+    		<option value="reg_33">辽宁证监局</option>
+    	
+    		<option value="reg_32">内蒙古证监局</option>
+    	
+    		<option value="reg_09">宁波证监局</option>
+    	
+    		<option value="reg_07">青岛证监局</option>
+    	
+    		<option value="reg_28">青海证监局</option>
+    	
+    		<option value="reg_15">山东证监局</option>
+    	
+    		<option value="reg_31">山西证监局</option>
+    	
+    		<option value="reg_39">陕西证监局</option>
+    	
+    		<option value="reg_22">四川证监局</option>
+    	
+    		<option value="reg_03">天津证监局</option>
+    	
+    		<option value="reg_08">厦门证监局</option>
+    	
+    		<option value="reg_29">新疆证监局</option>
+    	
+    		<option value="reg_24">云南证监局</option>
+    	
+    		<option value="reg_04">重庆证监局</option>
+    	
+    		<option value="reg_13">福建证监局</option>
+    	
+    		<option value="reg_20">广西证监局</option>
+    	
+    		<option value="reg_23">贵州证监局</option>
+    	
+    		<option value="reg_25">西藏证监局</option>
+    	
+    		<option value="reg_27">宁夏证监局</option>
+    	
+    </select><input type="button" id="select1" value="查询"/>
+    期货公司名称关键字<input type="text"><input type="button" id="select2" value="查询"/><br/>
+    
+    	姓名<input type="text" id="personName"/>  从业资格号<input type="text" id="personNum"/><input type="button" id="select3" value="查询"/>
+    
+    <form id="requirement" action="singleOrgServlet" method="post">
+    </form>
+    <table id="allShow">
+    	<tr>
+    		<td>
+    			<table>
+    				<tr>
+    					<td>机构编号</td>
+    					<td>机构名称</td>
+    				</tr>
+    				
+    					<tr>
+    						<td>G01026</td>
+    						<td><a href="#" title="G01026">民生期货有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01028</td>
+    						<td><a href="#" title="G01028">鑫鼎盛期货有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01030</td>
+    						<td><a href="#" title="G01030">九州期货有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01033</td>
+    						<td><a href="#" title="G01033">江信国盛期货有限责任公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01035</td>
+    						<td><a href="#" title="G01035">中融汇信期货有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01037</td>
+    						<td><a href="#" title="G01037">兴证期货有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01040</td>
+    						<td><a href="#" title="G01040">天鸿期货经纪有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01044</td>
+    						<td><a href="#" title="G01044">中投天琪期货有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01047</td>
+    						<td><a href="#" title="G01047">天风期货股份有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01049</td>
+    						<td><a href="#" title="G01049">渤海期货股份有限公司</a></td>
+    					</tr>
+    				
+    			</table>
+    		</td>
+    		<td>
+    			<table>
+    				<tr>
+    					<td>机构编号</td>
+    					<td>机构名称</td>
+    				</tr>
+    				
+    					<tr>
+    						<td>G01027</td>
+    						<td><a href="#" title="G01027">和合期货有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01029</td>
+    						<td><a href="#" title="G01029">深圳瑞龙期货有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01032</td>
+    						<td><a href="#" title="G01032">江海汇鑫期货有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01034</td>
+    						<td><a href="#" title="G01034">天富期货有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01036</td>
+    						<td><a href="#" title="G01036">大连良运期货经纪有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01038</td>
+    						<td><a href="#" title="G01038">晟鑫期货经纪有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01043</td>
+    						<td><a href="#" title="G01043">大通期货经纪有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01046</td>
+    						<td><a href="#" title="G01046">银河期货有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01048</td>
+    						<td><a href="#" title="G01048">中国国际期货有限公司</a></td>
+    					</tr>
+    				
+    					<tr>
+    						<td>G01050</td>
+    						<td><a href="#" title="G01050">国富期货有限公司</a></td>
+    					</tr>
+    				
+    			</table>
+    		</td>
+    	</tr>
+    </table>
+  </body>
+</html>
+
+    
+    	<span><a href="javascript:void(0);" id="homePage">首页</a>&nbsp;&nbsp;<a href="javascript:void(0);" id="nextPage">下一页</a>&nbsp;&nbsp;<a href="javascript:void(0);" id="prevPage">上一页</a>&nbsp;&nbsp;<a href="javascript:void(0);" id="lastPage">末页</a>&nbsp;&nbsp;当前第[<span id="currentPage"></span>]页&nbsp;&nbsp;共[<span>150</span>]条数据</span>
+    -->
+  </body>
+</html>

@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AMAC_Product" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Pedata" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Pedata/Pedata" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Sina_crawler" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sina_spiders" vcs="Git" />
   </component>
 </project>

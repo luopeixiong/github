@@ -1,0 +1,1676 @@
+﻿2017-11-14 14:53:06 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: Cyzone)
+2017-11-14 14:53:06 [scrapy.utils.log] INFO: Overridden settings: {'AUTOTHROTTLE_MAX_DELAY': 15, 'BOT_NAME': 'Cyzone', 'LOG_FILE': 'Cyzone.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'Cyzone.spiders', 'SPIDER_MODULES': ['Cyzone.spiders']}
+2017-11-14 14:53:06 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-11-14 14:53:06 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 14:53:07 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'Cyzone.middlewares.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'Cyzone.middlewares.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-14 14:53:07 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-14 14:53:07 [py.warnings] WARNING: F:\gitwork\pipeline.py:9: ScrapyDeprecationWarning: Module `scrapy.log` has been deprecated, Scrapy now relies on the builtin Python library for logging. Read the updated logging entry in the documentation to learn more.
+  from scrapy import log
+
+2017-11-14 14:53:08 [scrapy.middleware] INFO: Enabled item pipelines:
+['Cyzone.pipelines.CyzonePipeline']
+2017-11-14 14:53:08 [scrapy.core.engine] INFO: Spider opened
+2017-11-14 14:53:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-14 14:53:12 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:53:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:54:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:54:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:54:08 [scrapy.extensions.logstats] INFO: Crawled 31 pages (at 31 pages/min), scraped 2 items (at 2 items/min)
+2017-11-14 14:54:11 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-11-14 14:54:11 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-11-14 14:54:11 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2017-11-14 14:54:11 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:54:12 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:54:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:54:31 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: Cyzone)
+2017-11-14 14:54:31 [scrapy.utils.log] INFO: Overridden settings: {'AUTOTHROTTLE_MAX_DELAY': 15, 'BOT_NAME': 'Cyzone', 'LOG_FILE': 'Cyzone.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'Cyzone.spiders', 'SPIDER_MODULES': ['Cyzone.spiders']}
+2017-11-14 14:54:31 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-11-14 14:54:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 14:54:33 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'Cyzone.middlewares.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'Cyzone.middlewares.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-14 14:54:33 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-14 14:54:33 [py.warnings] WARNING: F:\gitwork\pipeline.py:9: ScrapyDeprecationWarning: Module `scrapy.log` has been deprecated, Scrapy now relies on the builtin Python library for logging. Read the updated logging entry in the documentation to learn more.
+  from scrapy import log
+
+2017-11-14 14:54:34 [scrapy.middleware] INFO: Enabled item pipelines:
+['Cyzone.pipelines.CyzonePipeline']
+2017-11-14 14:54:34 [scrapy.core.engine] INFO: Spider opened
+2017-11-14 14:54:34 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-14 14:54:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:54:37 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:54:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:54:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:54:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:54:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:55:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:55:12 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:55:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:55:27 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:55:34 [scrapy.extensions.logstats] INFO: Crawled 25 pages (at 25 pages/min), scraped 5 items (at 5 items/min)
+2017-11-14 14:55:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:55:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:55:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:55:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:55:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:56:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:56:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:56:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:56:34 [scrapy.extensions.logstats] INFO: Crawled 46 pages (at 21 pages/min), scraped 10 items (at 5 items/min)
+2017-11-14 14:56:35 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:56:50 [scrapy.core.scraper] ERROR: Spider error processing <GET http://120.204.74.11:6510/www.cyzone.cn/s/19211111/23953.html> (referer: http://www.cyzone.cn/vpeople/list-0-1/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 116, in infoParse
+    for config in configs['data']:
+TypeError: 'NoneType' object is not subscriptable
+2017-11-14 14:56:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:56:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:56:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:56:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:56:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:57:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:57:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:57:09 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:57:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:57:27 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:57:34 [scrapy.extensions.logstats] INFO: Crawled 69 pages (at 23 pages/min), scraped 19 items (at 9 items/min)
+2017-11-14 14:57:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:57:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:57:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:58:12 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:58:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:58:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:58:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:58:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:58:29 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:58:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:58:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:58:34 [scrapy.extensions.logstats] INFO: Crawled 81 pages (at 12 pages/min), scraped 22 items (at 3 items/min)
+2017-11-14 14:58:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:58:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:58:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:59:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:59:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:59:34 [scrapy.extensions.logstats] INFO: Crawled 88 pages (at 7 pages/min), scraped 23 items (at 1 items/min)
+2017-11-14 14:59:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 14:59:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:00:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:00:12 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:00:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:00:29 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:00:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:00:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:00:34 [scrapy.extensions.logstats] INFO: Crawled 101 pages (at 13 pages/min), scraped 28 items (at 5 items/min)
+2017-11-14 15:00:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:00:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:00:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:00:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:01:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:01:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:01:11 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:01:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:01:27 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:01:29 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/d/20150710/632.html>: HTTP status code is not handled or not allowed
+2017-11-14 15:01:29 [scrapy.core.scraper] ERROR: Spider error processing <GET http://52.69.20.245/wrproxy/authenticate?wr_token=token&wr_url=http%3a%2f%2fwww.cyzone.cn%2fvcompany%2flist-0-0-2-0-0%2f&wr_session_id=1CF1EB0A873A93D2E19E4E21B0C4D977> (referer: http://www.cyzone.cn/vcompany/list-0-0-1-0-0/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 101, in parse
+    nexturl = self.urlparse(response.url).format(page=page)
+AttributeError: 'NoneType' object has no attribute 'format'
+2017-11-14 15:01:29 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:01:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:01:34 [scrapy.extensions.logstats] INFO: Crawled 133 pages (at 32 pages/min), scraped 40 items (at 12 items/min)
+2017-11-14 15:01:35 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:01:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:01:42 [scrapy.core.scraper] ERROR: Spider error processing <GET http://52.69.20.245/wrproxy/authenticate?wr_token=token&wr_url=http%3a%2f%2fwww.cyzone.cn%2fr%2f20171112%2f58092.html&wr_session_id=5D3DCB8E661E947C61CDA18E45E36D1F> (referer: http://www.cyzone.cn/vcompany/list-0-0-1-0-0/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 116, in infoParse
+    for config in configs['data']:
+TypeError: 'NoneType' object is not subscriptable
+2017-11-14 15:01:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:01:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:01:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:01:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:01:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:02:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:02:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:02:10 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:02:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:02:15 [scrapy.core.scraper] ERROR: Spider error processing <GET http://us1.wss.webroot.com/wrproxy/authenticate?wr_token=token&wr_url=http%3a%2f%2fwww.cyzone.cn%2fr%2f20171113%2f58110.html&wr_session_id=1CF1EB0A873A93D2E19E4E21B0C4D977> (referer: http://www.cyzone.cn/vpeople/list-0-1/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 116, in infoParse
+    for config in configs['data']:
+TypeError: 'NoneType' object is not subscriptable
+2017-11-14 15:02:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:02:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:02:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:02:34 [scrapy.extensions.logstats] INFO: Crawled 154 pages (at 21 pages/min), scraped 45 items (at 5 items/min)
+2017-11-14 15:02:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:02:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:02:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:02:57 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/people/list-0-3-0-0/>: HTTP status code is not handled or not allowed
+2017-11-14 15:03:05 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:03:13 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:03:34 [scrapy.extensions.logstats] INFO: Crawled 164 pages (at 10 pages/min), scraped 48 items (at 3 items/min)
+2017-11-14 15:04:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:04:21 [scrapy.core.scraper] ERROR: Spider error processing <GET http://120.204.74.11:6510/www.cyzone.cn/f/20170718/3175.html> (referer: http://www.cyzone.cn/people/list-0-1-0-0/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 116, in infoParse
+    for config in configs['data']:
+TypeError: 'NoneType' object is not subscriptable
+2017-11-14 15:04:34 [scrapy.extensions.logstats] INFO: Crawled 166 pages (at 2 pages/min), scraped 49 items (at 1 items/min)
+2017-11-14 15:04:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:04:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:05:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:05:34 [scrapy.extensions.logstats] INFO: Crawled 167 pages (at 1 pages/min), scraped 49 items (at 0 items/min)
+2017-11-14 15:06:34 [scrapy.extensions.logstats] INFO: Crawled 167 pages (at 0 pages/min), scraped 49 items (at 0 items/min)
+2017-11-14 15:07:30 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-11-14 15:07:30 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-11-14 15:07:31 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2017-11-14 15:07:38 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: Cyzone)
+2017-11-14 15:07:38 [scrapy.utils.log] INFO: Overridden settings: {'AUTOTHROTTLE_MAX_DELAY': 15, 'BOT_NAME': 'Cyzone', 'LOG_FILE': 'Cyzone.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'Cyzone.spiders', 'SPIDER_MODULES': ['Cyzone.spiders']}
+2017-11-14 15:07:38 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-11-14 15:07:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 15:07:39 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'Cyzone.middlewares.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'Cyzone.middlewares.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-14 15:07:39 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-14 15:07:39 [py.warnings] WARNING: F:\gitwork\pipeline.py:9: ScrapyDeprecationWarning: Module `scrapy.log` has been deprecated, Scrapy now relies on the builtin Python library for logging. Read the updated logging entry in the documentation to learn more.
+  from scrapy import log
+
+2017-11-14 15:07:40 [scrapy.middleware] INFO: Enabled item pipelines:
+['Cyzone.pipelines.CyzonePipeline']
+2017-11-14 15:07:40 [scrapy.core.engine] INFO: Spider opened
+2017-11-14 15:07:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-14 15:07:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:07:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:07:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:08:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:08:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:08:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:08:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:08:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:08:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:08:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:08:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:08:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:08:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:08:41 [scrapy.extensions.logstats] INFO: Crawled 37 pages (at 37 pages/min), scraped 15 items (at 15 items/min)
+2017-11-14 15:08:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:08:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:08:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:08:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:09 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:11 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:27 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:29 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:40 [scrapy.extensions.logstats] INFO: Crawled 72 pages (at 35 pages/min), scraped 29 items (at 14 items/min)
+2017-11-14 15:09:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:09:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:10:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:10:09 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:10:11 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:10:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:10:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:10:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:10:40 [scrapy.extensions.logstats] INFO: Crawled 91 pages (at 19 pages/min), scraped 37 items (at 8 items/min)
+2017-11-14 15:10:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:10:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:10:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:10:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:11:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:11:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:11:06 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:11:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:11:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:11:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:11:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:11:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:11:40 [scrapy.extensions.logstats] INFO: Crawled 120 pages (at 29 pages/min), scraped 49 items (at 12 items/min)
+2017-11-14 15:11:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:11:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:11:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:11:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:11:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <504 http://172.23.3.10:90/ac_portal/proxy.html?template=default&tabs=pwd&vlanid=0&url=http://www.cyzone.cn/d/20110626/33.html>: HTTP status code is not handled or not allowed
+2017-11-14 15:11:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:11:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:11:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:12:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:12:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:12:06 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:12:10 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:12:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:12:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:12:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:12:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:12:37 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:12:40 [scrapy.extensions.logstats] INFO: Crawled 154 pages (at 34 pages/min), scraped 63 items (at 14 items/min)
+2017-11-14 15:12:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 15:12:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:12:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:13:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:13:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:13:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:13:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:13:40 [scrapy.extensions.logstats] INFO: Crawled 167 pages (at 13 pages/min), scraped 67 items (at 4 items/min)
+2017-11-14 15:13:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:14:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:14:40 [scrapy.extensions.logstats] INFO: Crawled 169 pages (at 2 pages/min), scraped 67 items (at 0 items/min)
+2017-11-14 15:14:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:15:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:15:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:15:40 [scrapy.extensions.logstats] INFO: Crawled 176 pages (at 7 pages/min), scraped 70 items (at 3 items/min)
+2017-11-14 15:15:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:16:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:16:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:16:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:16:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:16:22 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:16:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:16:37 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:16:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:16:40 [scrapy.extensions.logstats] INFO: Crawled 183 pages (at 7 pages/min), scraped 72 items (at 2 items/min)
+2017-11-14 15:16:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:16:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:16:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:16:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:17:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:17:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:17:05 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:17:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:17:12 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:17:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:17:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:17:40 [scrapy.extensions.logstats] INFO: Crawled 196 pages (at 13 pages/min), scraped 76 items (at 4 items/min)
+2017-11-14 15:17:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 15:17:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:18:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:18:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:18:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:18:35 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:18:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:18:37 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:18:40 [scrapy.extensions.logstats] INFO: Crawled 218 pages (at 22 pages/min), scraped 82 items (at 6 items/min)
+2017-11-14 15:18:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:18:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:18:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:18:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:05 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:10 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:11 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:27 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:37 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:40 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <504 http://172.23.3.10:90/ac_portal/proxy.html?template=default&tabs=pwd&vlanid=0&url=http://www.cyzone.cn/r/20171114/58112.html>: HTTP status code is not handled or not allowed
+2017-11-14 15:19:40 [scrapy.extensions.logstats] INFO: Crawled 263 pages (at 45 pages/min), scraped 98 items (at 16 items/min)
+2017-11-14 15:19:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:45 [scrapy.core.scraper] ERROR: Spider error processing <GET http://us1.wss.webroot.com/wrproxy/authenticate?wr_token=token&wr_url=http%3a%2f%2fwww.cyzone.cn%2fd%2f20151110%2f2094.html&wr_session_id=1DFD3EB1A06EAC204EC02C52FF0EE0AE> (referer: http://www.cyzone.cn/people/list-0-4-0-0/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 116, in infoParse
+    for config in configs['data']:
+TypeError: 'NoneType' object is not subscriptable
+2017-11-14 15:19:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:19:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:20:05 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:20:06 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:20:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:20:11 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.cyzone.cn/f/20170512/3098.html>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+scrapy.core.downloader.handlers.http11.TunnelError: Could not open CONNECT tunnel with proxy 222.73.68.144:8090 [{'status': 400, 'reason': b'Bad Request'}]
+2017-11-14 15:20:12 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:20:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:20:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:20:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:20:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:20:35 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:20:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:20:41 [scrapy.extensions.logstats] INFO: Crawled 297 pages (at 34 pages/min), scraped 113 items (at 15 items/min)
+2017-11-14 15:20:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:20:44 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.cyzone.cn/s/20171110/23948.html>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+scrapy.core.downloader.handlers.http11.TunnelError: Could not open CONNECT tunnel with proxy 220.174.132.205:8888 [b'<html>\r\n<head><title>400 Bad Req']
+2017-11-14 15:20:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:20:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <504 http://172.23.3.10:90/ac_portal/proxy.html?template=default&tabs=pwd&vlanid=0&url=http://www.cyzone.cn/d/20150528/456.html>: HTTP status code is not handled or not allowed
+2017-11-14 15:21:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:21:05 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:21:10 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:21:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:21:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:21:40 [scrapy.extensions.logstats] INFO: Crawled 316 pages (at 19 pages/min), scraped 122 items (at 9 items/min)
+2017-11-14 15:22:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:22:22 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:22:40 [scrapy.extensions.logstats] INFO: Crawled 335 pages (at 19 pages/min), scraped 129 items (at 7 items/min)
+2017-11-14 15:22:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:22:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:22:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 15:22:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:23:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:23:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:23:04 [scrapy.core.scraper] ERROR: Spider error processing <GET http://us1.wss.webroot.com/wrproxy/authenticate?wr_token=token&wr_url=http%3a%2f%2fwww.cyzone.cn%2fcompany%2flist-0-3-4%2f&wr_session_id=1DFD3EB1A06EAC204EC02C52FF0EE0AE> (referer: http://www.cyzone.cn/company/list-0-2-4/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 101, in parse
+    nexturl = self.urlparse(response.url).format(page=page)
+AttributeError: 'NoneType' object has no attribute 'format'
+2017-11-14 15:23:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:23:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:23:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:23:40 [scrapy.extensions.logstats] INFO: Crawled 356 pages (at 21 pages/min), scraped 136 items (at 7 items/min)
+2017-11-14 15:23:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:23:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:23:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:23:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:23:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:23:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:23:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:23:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:23:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:23:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:22 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:40 [scrapy.extensions.logstats] INFO: Crawled 381 pages (at 25 pages/min), scraped 144 items (at 8 items/min)
+2017-11-14 15:24:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:24:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:25:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:25:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:25:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:25:22 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <503 http://172.23.3.10:90/ac_portal/proxy.html?template=default&tabs=pwd&vlanid=0&url=http://www.cyzone.cn/d/20110626/22.html>: HTTP status code is not handled or not allowed
+2017-11-14 15:25:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:25:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:25:40 [scrapy.extensions.logstats] INFO: Crawled 393 pages (at 12 pages/min), scraped 147 items (at 3 items/min)
+2017-11-14 15:25:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:25:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:25:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:25:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:25:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:25:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:25:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:25:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:25:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:26:00 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/f/20170515/3130.html>: HTTP status code is not handled or not allowed
+2017-11-14 15:26:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:26:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:26:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:26:40 [scrapy.extensions.logstats] INFO: Crawled 414 pages (at 21 pages/min), scraped 155 items (at 8 items/min)
+2017-11-14 15:26:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:26:56 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/d/20160708/2392.html>: HTTP status code is not handled or not allowed
+2017-11-14 15:27:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:27:09 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:27:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:27:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:27:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:27:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:27:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:27:37 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:27:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:27:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:27:40 [scrapy.extensions.logstats] INFO: Crawled 431 pages (at 17 pages/min), scraped 157 items (at 2 items/min)
+2017-11-14 15:27:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:27:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:27:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:27:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:28:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 15:28:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:28:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:28:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:28:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:28:30 [py.warnings] WARNING: F:\gitwork\pipeline.py:131: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg("sql is:%s/n reason is :%s"%(sql,e))
+
+2017-11-14 15:28:30 [scrapy.log] INFO: sql is:insert into dbo.Cyzone_Corporate (CorporateName,CorporateID,CorporateFullName,OfficialWebsite,introduction,EstablishmentTime,Location,Turns,industry,RegistrationNumber,ManagementState,LegalRepresentative,Shareholder,CompanyType,SetupTime,RegisteredCapital,Residence,AddTime,Checktime) values ('明医众禾/医德帮','58005','公司全称：明医众禾科技（北京）有限责任公司','http://www.yideb.com','明医众禾是一家专注基层诊所医疗软件和服务平台的服务运营的公司，致力于改善基层诊疗环境，增强基层诊所专业管理能力，提升基层百姓的就医体验，构建线上线下结合的医德帮基层医疗服务生态平台。','2015-08-06','北京','A轮','医疗健康,寻医问诊,Mhealth移动医疗,医疗健康,O2O','110105019647039','存续（在营、开业、在册）','姜强','苏州远毅智源股权投资合伙企业（有限合伙）,南京明医众禾医药科技中心（有限合伙）,深圳旦恩创业投资合伙企业(有限合伙),姜强,北京十二空间信息科技中心（有限合伙）,南京泓霖康健投资中心（有限合伙）,北京元吉众合股权投资中心（有限合伙）,南京泓惠众禾医药科技中心（有限合伙）','其他有限责任公司','2015-08-06','285.7143万元人民币','北京市朝阳区红军营南路15号院5号楼15层1503A室','2017-11-14 15:28:30','2017-11-14 15:28:30')/n reason is :(8152, b'String or binary data would be truncated.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+2017-11-14 15:28:40 [scrapy.extensions.logstats] INFO: Crawled 445 pages (at 14 pages/min), scraped 159 items (at 2 items/min)
+2017-11-14 15:28:44 [scrapy.log] INFO: sql is:insert into dbo.Cyzone_Corporate (CorporateName,CorporateID,CorporateFullName,OfficialWebsite,introduction,EstablishmentTime,Location,Turns,industry,RegistrationNumber,ManagementState,LegalRepresentative,Shareholder,CompanyType,SetupTime,RegisteredCapital,Residence,AddTime,Checktime) values ('寰宇旅游/凤凰旅游','57964','公司全称：北京凤凰假期国际旅行社有限公司','http://www.51tour.com','凤凰旅游是一家主打中国公民出境旅游业务的国际旅行社，是中国最大的旅游产品出境批发商之一，长期专注于出境旅游业务。旗下有寰宇B2B同业分销平台、美时途电子商务公司、世达旅游、斑蝶全球签证中心、寰宇太原等品牌。','1997-05-06','北京','C轮','旅游户外,旅游,跨境游,出境游,B2C','110105005102106','存续（在营、开业、在册）','谢立新','北京顺意正德投资管理中心（有限合伙）,北京君联名德股权投资合伙企业（有限合伙）,西藏达孜联科投资有限公司,达孜昭元长泰投资中心（有限合伙）,北京正德顺意投资管理中心（有限合伙）,青岛海尔创业投资有限责任公司,谢立新,刘建伟,李京权,宁波意顺嘉新企业管理咨询合伙企业（有限合伙）,上海泓成股权投资合伙企业（有限合伙）,西藏林芝正源策略投资有限公司,北京丝路云和投资中心（有限合伙）,宁波立嘉企业管理咨询合伙企业（有限合伙）,于建中,天津君睿祺股权投资合伙企业（有限合伙）,李嘉,周琳,王刚,中信资本文化旅游（成都）股份有限公司','有限责任公司(自然人投资或控股)','1997-05-06','8416.7568万元人民币','北京市朝阳区高碑店乡八里庄村陈家林甲2号A座三层A302、B楼三层B301、B302、四层B401','2017-11-14 15:28:44','2017-11-14 15:28:44')/n reason is :(8152, b'String or binary data would be truncated.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+2017-11-14 15:28:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:28:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:28:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:28:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:29:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:29:13 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:29:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:29:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:29:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:29:22 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:29:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:29:27 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:29:29 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:29:37 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:29:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:29:40 [scrapy.extensions.logstats] INFO: Crawled 470 pages (at 25 pages/min), scraped 167 items (at 8 items/min)
+2017-11-14 15:29:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:30:11 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:30:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:30:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:30:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:30:40 [scrapy.extensions.logstats] INFO: Crawled 487 pages (at 17 pages/min), scraped 174 items (at 7 items/min)
+2017-11-14 15:30:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:30:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:30:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:31:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:31:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:31:09 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:31:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:31:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:31:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:31:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:31:40 [scrapy.extensions.logstats] INFO: Crawled 519 pages (at 32 pages/min), scraped 190 items (at 16 items/min)
+2017-11-14 15:31:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:32:06 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:32:09 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:32:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:32:40 [scrapy.extensions.logstats] INFO: Crawled 530 pages (at 11 pages/min), scraped 194 items (at 4 items/min)
+2017-11-14 15:32:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:32:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:32:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:32:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:32:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:32:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:33:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:33:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:33:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 15:33:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:33:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:33:40 [scrapy.extensions.logstats] INFO: Crawled 540 pages (at 10 pages/min), scraped 199 items (at 5 items/min)
+2017-11-14 15:33:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:33:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:33:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:34:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:34:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:34:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:34:05 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:34:09 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:34:13 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:34:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:34:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:34:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:34:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:34:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:34:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:34:35 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:34:40 [scrapy.extensions.logstats] INFO: Crawled 570 pages (at 30 pages/min), scraped 210 items (at 11 items/min)
+2017-11-14 15:34:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:34:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:35:35 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:35:40 [scrapy.extensions.logstats] INFO: Crawled 580 pages (at 10 pages/min), scraped 212 items (at 2 items/min)
+2017-11-14 15:35:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:35:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:36:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:36:09 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:36:13 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:36:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:36:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:36:40 [scrapy.extensions.logstats] INFO: Crawled 595 pages (at 15 pages/min), scraped 219 items (at 7 items/min)
+2017-11-14 15:37:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:37:35 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:37:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:37:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:37:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:37:42 [scrapy.extensions.logstats] INFO: Crawled 598 pages (at 3 pages/min), scraped 221 items (at 2 items/min)
+2017-11-14 15:37:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:37:52 [scrapy.log] INFO: sql is:insert into dbo.Cyzone_Corporate (CorporateName,CorporateID,CorporateFullName,OfficialWebsite,introduction,EstablishmentTime,Location,Turns,industry,RegistrationNumber,ManagementState,LegalRepresentative,Shareholder,CompanyType,SetupTime,RegisteredCapital,Residence,AddTime,Checktime) values ('艾漫动漫','57846','公司全称：艾漫（上海）动漫设计有限公司','http://www.aimon.cn','艾漫动漫是一家的正版动漫周边产品订货系统，与日本同步提供大量最新最热门的品牌动漫周边产品，隶属于艾漫（上海）动漫设计有限公司。','2013-12-16','上海','B轮','文体娱乐,周边服务,批发,动漫,供应链,文化娱乐',Null,'存续（在营、开业、在册）','吴伟诚','吴伟诚,上海幻电信息科技有限公司,上海火山石一期股权投资合伙企业（有限合伙）,深圳市达晨创坤股权投资企业（有限合伙）,上海耀合投资管理中心（有限合伙）,上海途耀股权投资管理中心（有限合伙）,上海艾仑豪信息技术合伙企业（有限合伙）,上海联创君潭创业投资中心（有限合伙）,康振木','有限责任公司（台港澳与境内合资）','2013-12-16','182.9141万人民币','上海市虹口区柳营路125号501室-4','2017-11-14 15:37:52','2017-11-14 15:37:52')/n reason is :(8152, b'String or binary data would be truncated.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+2017-11-14 15:37:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:37:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:37:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:37:58 [scrapy.log] INFO: sql is:insert into dbo.Cyzone_Corporate (CorporateName,CorporateID,CorporateFullName,OfficialWebsite,introduction,EstablishmentTime,Location,Turns,industry,RegistrationNumber,ManagementState,LegalRepresentative,Shareholder,CompanyType,SetupTime,RegisteredCapital,Residence,AddTime,Checktime) values ('达令/普缇客科技','57917','公司全称：北京普缇客科技有限公司','http://www.daling.com','达令（此前叫：达令礼物店）是一个全球潮货移动电商品牌，主打海外精选创意时尚生活商品，北京普缇客科技有限公司旗下产品。此前曾主打礼品服务。','2013-07-30','北京','战略投资','电子商务,女性创业者,买手,时尚潮品,礼品,电子商务','110229016126692','存续（在营、开业、在册）','齐燕','达孜县达艺潮人投资中心（有限合伙）,达孜县为朋驰骋投资管理有限公司,STRONGHUGELIMITED,STRONGEASELIMITED,CTGEvergreenInvestmentⅢ(HK)Limited,SequoiaCapitalCVIVHoldcoⅢ,Ltd.,SCCVentureVHoldcoIV,Ltd.,达孜县派睿跃齐管理咨询有限公司,盛维创业投资管理（上海）有限公司,达孜县达心佳人投资中心（有限合伙）,ROSYGLOBALHOLDINGSLIMITED,SHEENGRANDLIMITED,LIUQUFEI,达孜县达令丽人投资中心（有限合伙）,达孜县奕旻投资管理有限责任公司','有限责任公司(中外合资)','2013-07-30','225.16万元人民币','北京市延庆区康庄镇龙庆.望都佳园1号楼1层4单元401','2017-11-14 15:37:58','2017-11-14 15:37:58')/n reason is :(8152, b'String or binary data would be truncated.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+2017-11-14 15:37:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:38:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:38:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:38:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:38:22 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:38:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 15:38:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:38:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:38:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:38:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:38:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:38:40 [scrapy.extensions.logstats] INFO: Crawled 617 pages (at 19 pages/min), scraped 228 items (at 7 items/min)
+2017-11-14 15:38:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:38:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:38:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:38:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:38:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:39:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:39:13 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:39:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:39:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:39:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:39:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:39:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:39:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:39:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:39:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:39:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:39:41 [scrapy.extensions.logstats] INFO: Crawled 653 pages (at 36 pages/min), scraped 238 items (at 10 items/min)
+2017-11-14 15:39:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:39:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:39:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:40:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:40:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:40:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:40:29 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:40:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:40:40 [scrapy.extensions.logstats] INFO: Crawled 683 pages (at 30 pages/min), scraped 253 items (at 15 items/min)
+2017-11-14 15:40:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:40:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:40:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:40:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:40:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:40:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:41:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:41:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:41:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:41:06 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:41:09 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:41:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:41:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:41:27 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:41:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:41:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:41:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:41:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:41:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:41:40 [scrapy.extensions.logstats] INFO: Crawled 728 pages (at 45 pages/min), scraped 270 items (at 17 items/min)
+2017-11-14 15:41:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:41:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:42:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:42:13 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:42:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:42:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:42:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:42:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:42:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:42:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:42:40 [scrapy.extensions.logstats] INFO: Crawled 759 pages (at 31 pages/min), scraped 280 items (at 10 items/min)
+2017-11-14 15:42:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:42:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:42:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:42:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:42:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:42:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:42:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:43:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:43:15 [scrapy.log] INFO: sql is:insert into dbo.Cyzone_Corporate (CorporateName,CorporateID,CorporateFullName,OfficialWebsite,introduction,EstablishmentTime,Location,Turns,industry,RegistrationNumber,ManagementState,LegalRepresentative,Shareholder,CompanyType,SetupTime,RegisteredCapital,Residence,AddTime,Checktime) values ('广东川田卫生用品','57466','公司全称：广东川田卫生用品有限公司','http://www.kawada.com.cn','川田集团始创于1998年5月，总部设在香港，在广东、湖北、浙江有三大制造基地，五大工厂，自有品牌为非凡魅力（FAVORITE）。集团总共拥有近50条全自动、全伺服的专业卫生巾生产线并配备污点检测、镜像检测、换接料剔废、金属检测等配套智能检验检视探测系统。其中广东川田卫生用品有限公司与广东川田卫生用品有限公司南区分公司分别位于中国卫生城市广东省中山市的国家级火炬开发区与南区，这里风景秀丽、空气清新，菌落总数指标极低，温、湿度适中，是生产一次性卫生用品的理想之所。上述两个厂区专业生产线总共20条以上，总占地面积为4万平方米，员工总数在500人左右。公司通过ISO9001质量管理体系认证和美国FDA卫生注册，公司拥有先进的设备、工艺、技术与科学的管理，卫生环境的建设及产品质量的控制位居行业前列，屡次被省卫生厅推为标板单位。公司专业研发、设计、制造、销售一次性女性卫生用品，产品主要有：卫生巾、卫生护垫、失禁巾、产妇巾等，是一家专业的卫生巾ODM设计制造、OEM贴牌代加工工厂、厂家、生产商、制造商、供应商。卫生护垫及卫生巾巾身长度有：152mm、163mm、180mm、190mm、220mm、240mm、260mm、285mm、320mm、350mm、380mm、420mm。公司与景兴ABC卫生巾、景兴FREE飞卫生巾、,恒安,安尔乐卫生巾、丝宝洁婷卫生巾等中国卫生巾十大品牌都有（过）合作。与思埠纾雅卫生巾、韩轩缘女王卫生巾、安馨堂安馨卫生巾、护家护你妹卫生巾等微电商品牌都有（过）合作。与香雪制药九极MM卫生巾、绿之韵婷韵尔卫生巾等直销品牌都有（过）合作。与千金净雅卫生巾、稳健全棉时代卫生巾、云南易小小卫生巾、马应龙柔语卫生巾、怀仁药业EME拥抱我卫生巾等企业和品牌都有（过）合作。与财富世界500强企业旗下卫生巾自有品牌都有合作，如：西尔斯SEARS旗下K-MART的SMARTSENSE卫生巾、塔吉特旗下TARGET卫生巾、克罗格旗下KRGOER卫生巾、沃博联旗下WALGREENS卫生巾、康德乐旗下的CARDINALHEALTH卫生巾、怡和集团JARDINES旗下牛奶国际的万宁MANNINGS卫生巾、家宁GUARDIAN卫生巾、惠康FIRSTCHOICE卫生巾、美元树旗下DOLLARTREE卫生巾等企业和品牌有合作。公司产品系列有：3D立体压纹与打孔的棉柔亲肤系列、网面干爽系列、进口美棉舒适无感纯棉系列、蚕丝系列、天蚕丝系列、乳丝系列、医用纱布系列、壳聚糖系列、竹纤维系列；超薄极薄系列、纤薄纤巧系列；功能系列，如：活氧动态负离子卫生巾、纳米银银离子卫生巾、远红外能量卫生巾、磁性生物磁磁动力卫生巾、,红豆,杉卫生巾、甲壳素卫生巾、锗元素卫生巾、竹炭卫生巾、益母草卫生巾、茶多酚卫生巾、SOD美白嫩红卫生巾、DM硅藻净味卫生巾、维生素E卫生巾、远红外体感能量卫生巾、艾草艾叶卫生巾、汉方草本系列卫生巾、精油养护系列卫生巾、中药萃取系列卫生巾、花草植物萃取卫生巾、清凉冰凉酷爽卫生巾。从包装来看，有胶袋装系列、盒装系列、礼盒套盒系列等等。公司产品除供应中国大陆市场外，还远销北美洲、南美洲、欧洲、澳洲、非洲、东南亚、中东、香港等地区或国家。欢迎广大客户或代理商莅临川田公司参观、指导！','2015-01-19','广东',Null,'生活消费,卫生巾','442000400047713','存续','孙潞德','德阳实业有限公司','有限责任公司(台港澳法人独资)','2015-01-19','300万美元','中山市火炬开发区光丰路46号2幢','2017-11-14 15:43:15','2017-11-14 15:43:15')/n reason is :(8152, b'String or binary data would be truncated.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+2017-11-14 15:43:40 [scrapy.extensions.logstats] INFO: Crawled 781 pages (at 22 pages/min), scraped 287 items (at 7 items/min)
+2017-11-14 15:43:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:43:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 15:43:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:44:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:44:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:44:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:44:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:44:40 [scrapy.extensions.logstats] INFO: Crawled 793 pages (at 12 pages/min), scraped 291 items (at 4 items/min)
+2017-11-14 15:44:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:44:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:44:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:44:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:44:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:45:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:45:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:45:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:45:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:45:35 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:45:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:45:40 [scrapy.extensions.logstats] INFO: Crawled 804 pages (at 11 pages/min), scraped 294 items (at 3 items/min)
+2017-11-14 15:45:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:45:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:45:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:45:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:46:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:46:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:46:05 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:46:06 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:46:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:46:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:46:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:46:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:46:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:46:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:46:40 [scrapy.extensions.logstats] INFO: Crawled 816 pages (at 12 pages/min), scraped 296 items (at 2 items/min)
+2017-11-14 15:47:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:47:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:47:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:47:40 [scrapy.extensions.logstats] INFO: Crawled 825 pages (at 9 pages/min), scraped 302 items (at 6 items/min)
+2017-11-14 15:47:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:47:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:48:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:48:40 [scrapy.extensions.logstats] INFO: Crawled 833 pages (at 8 pages/min), scraped 305 items (at 3 items/min)
+2017-11-14 15:48:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:48:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:48:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 15:48:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:48:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:48:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:49:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:49:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/r/20170918/57111.html>: HTTP status code is not handled or not allowed
+2017-11-14 15:49:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:49:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:49:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:49:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/r/20170920/57158.html>: HTTP status code is not handled or not allowed
+2017-11-14 15:49:40 [scrapy.extensions.logstats] INFO: Crawled 857 pages (at 24 pages/min), scraped 316 items (at 11 items/min)
+2017-11-14 15:49:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:49:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:49:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:50:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:50:10 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:50:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:50:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/s/20170918/23568.html>: HTTP status code is not handled or not allowed
+2017-11-14 15:50:29 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:50:35 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:50:40 [scrapy.extensions.logstats] INFO: Crawled 872 pages (at 15 pages/min), scraped 323 items (at 7 items/min)
+2017-11-14 15:50:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:50:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:50:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:50:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:51:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:51:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:51:11 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:51:13 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:51:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:51:27 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:51:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:51:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:51:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:51:41 [scrapy.extensions.logstats] INFO: Crawled 902 pages (at 30 pages/min), scraped 338 items (at 15 items/min)
+2017-11-14 15:51:44 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <504 http://172.23.3.10:90/ac_portal/proxy.html?template=default&tabs=pwd&vlanid=0&url=http://www.cyzone.cn/s/64540926/23645.html>: HTTP status code is not handled or not allowed
+2017-11-14 15:51:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:52:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:52:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:52:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:52:13 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:52:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:52:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:52:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:52:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:52:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:52:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:52:40 [scrapy.extensions.logstats] INFO: Crawled 930 pages (at 28 pages/min), scraped 356 items (at 18 items/min)
+2017-11-14 15:52:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:52:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:52:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:52:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:53:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:53:10 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:53:13 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:53:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:53:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:53:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:53:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:53:37 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:53:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:53:40 [scrapy.extensions.logstats] INFO: Crawled 953 pages (at 23 pages/min), scraped 361 items (at 5 items/min)
+2017-11-14 15:53:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 15:53:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:53:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:53:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:54:40 [scrapy.extensions.logstats] INFO: Crawled 969 pages (at 16 pages/min), scraped 371 items (at 10 items/min)
+2017-11-14 15:54:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:55:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:55:40 [scrapy.extensions.logstats] INFO: Crawled 973 pages (at 4 pages/min), scraped 372 items (at 1 items/min)
+2017-11-14 15:56:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:56:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:56:26 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/f/20170510/3042.html>: HTTP status code is not handled or not allowed
+2017-11-14 15:56:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:56:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:56:40 [scrapy.extensions.logstats] INFO: Crawled 992 pages (at 19 pages/min), scraped 380 items (at 8 items/min)
+2017-11-14 15:56:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:57:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:57:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:57:40 [scrapy.extensions.logstats] INFO: Crawled 998 pages (at 6 pages/min), scraped 385 items (at 5 items/min)
+2017-11-14 15:57:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:57:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:57:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:57:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:57:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:57:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/d/20151102/2083.html>: HTTP status code is not handled or not allowed
+2017-11-14 15:58:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:58:06 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:58:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:58:12 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:58:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:58:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:58:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:58:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:58:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:58:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:58:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:58:40 [scrapy.extensions.logstats] INFO: Crawled 1025 pages (at 27 pages/min), scraped 394 items (at 9 items/min)
+2017-11-14 15:58:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:58:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:58:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:58:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:58:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 15:59:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:59:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:59:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:59:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/f/20170510/3048.html>: HTTP status code is not handled or not allowed
+2017-11-14 15:59:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:59:40 [scrapy.extensions.logstats] INFO: Crawled 1042 pages (at 17 pages/min), scraped 400 items (at 6 items/min)
+2017-11-14 15:59:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:59:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:59:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:59:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:59:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 15:59:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:00:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:00:40 [scrapy.extensions.logstats] INFO: Crawled 1057 pages (at 15 pages/min), scraped 404 items (at 4 items/min)
+2017-11-14 16:01:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:01:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:01:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:01:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:01:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:01:40 [scrapy.extensions.logstats] INFO: Crawled 1067 pages (at 10 pages/min), scraped 407 items (at 3 items/min)
+2017-11-14 16:01:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:02:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:02:40 [scrapy.extensions.logstats] INFO: Crawled 1072 pages (at 5 pages/min), scraped 411 items (at 4 items/min)
+2017-11-14 16:02:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:02:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:02:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:02:54 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/f/20170504/2996.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:02:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:02:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:03:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:03:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:03:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:03:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:03:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:03:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:03:35 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:03:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:03:40 [scrapy.extensions.logstats] INFO: Crawled 1096 pages (at 24 pages/min), scraped 419 items (at 8 items/min)
+2017-11-14 16:03:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 16:04:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:04 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/f/20170426/2977.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:04:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:29 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:35 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:40 [scrapy.extensions.logstats] INFO: Crawled 1121 pages (at 25 pages/min), scraped 423 items (at 4 items/min)
+2017-11-14 16:04:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:04:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:05:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:05:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:05:40 [scrapy.extensions.logstats] INFO: Crawled 1131 pages (at 10 pages/min), scraped 426 items (at 3 items/min)
+2017-11-14 16:05:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:06 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:27 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:40 [scrapy.extensions.logstats] INFO: Crawled 1137 pages (at 6 pages/min), scraped 427 items (at 1 items/min)
+2017-11-14 16:06:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:06:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:11 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:35 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:37 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:40 [scrapy.extensions.logstats] INFO: Crawled 1166 pages (at 29 pages/min), scraped 434 items (at 7 items/min)
+2017-11-14 16:07:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:07:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:08:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:08:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:08:05 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:08:11 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:08:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:08:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:08:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:08:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:08:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:08:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:08:40 [scrapy.extensions.logstats] INFO: Crawled 1194 pages (at 28 pages/min), scraped 443 items (at 9 items/min)
+2017-11-14 16:08:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:08:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 16:08:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:09:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:09:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:09:40 [scrapy.extensions.logstats] INFO: Crawled 1208 pages (at 14 pages/min), scraped 448 items (at 5 items/min)
+2017-11-14 16:09:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:09:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:09:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:09:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:10:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:10:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:10:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:10:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:10:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:10:41 [scrapy.extensions.logstats] INFO: Crawled 1223 pages (at 15 pages/min), scraped 453 items (at 5 items/min)
+2017-11-14 16:10:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:11:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:11:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:11:22 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:11:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:11:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:11:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:11:35 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/s/20170925/23631.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:11:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:11:40 [scrapy.extensions.logstats] INFO: Crawled 1257 pages (at 34 pages/min), scraped 463 items (at 10 items/min)
+2017-11-14 16:11:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:11:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:11:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:11:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:11:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:12:13 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:12:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:12:27 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:12:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:12:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:12:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:12:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:12:41 [scrapy.extensions.logstats] INFO: Crawled 1288 pages (at 31 pages/min), scraped 469 items (at 6 items/min)
+2017-11-14 16:12:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:12:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:12:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:12:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:12:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:12:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/f/20170504/3000.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:12:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:13:10 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:13:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:13:27 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/f/20170331/2892.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:13:28 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/d/20160809/2636.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:13:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:13:40 [scrapy.extensions.logstats] INFO: Crawled 1342 pages (at 54 pages/min), scraped 488 items (at 19 items/min)
+2017-11-14 16:13:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:13:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:13:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:13:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:13:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 16:14:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:09 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:22 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:40 [scrapy.extensions.logstats] INFO: Crawled 1368 pages (at 26 pages/min), scraped 494 items (at 6 items/min)
+2017-11-14 16:14:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:14:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:15:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:15:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:15:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:15:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:15:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:15:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:15:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:15:37 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:15:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:15:41 [scrapy.extensions.logstats] INFO: Crawled 1405 pages (at 37 pages/min), scraped 505 items (at 11 items/min)
+2017-11-14 16:15:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:15:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:15:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:15:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:15:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:05 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:09 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:22 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:37 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:40 [scrapy.extensions.logstats] INFO: Crawled 1430 pages (at 25 pages/min), scraped 509 items (at 4 items/min)
+2017-11-14 16:16:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:16:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:12 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:13 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:27 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:29 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:40 [scrapy.extensions.logstats] INFO: Crawled 1465 pages (at 35 pages/min), scraped 515 items (at 6 items/min)
+2017-11-14 16:17:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:17:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:18:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:18:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:18:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:18:06 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:18:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:18:09 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:18:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:18:22 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:18:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:18:27 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:18:29 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:18:40 [scrapy.extensions.logstats] INFO: Crawled 1491 pages (at 26 pages/min), scraped 521 items (at 6 items/min)
+2017-11-14 16:18:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:18:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:18:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 16:19:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:19:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:19:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:19:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:19:40 [scrapy.extensions.logstats] INFO: Crawled 1508 pages (at 17 pages/min), scraped 528 items (at 7 items/min)
+2017-11-14 16:19:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:19:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:19:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:19:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:19:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:20:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:20:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:20:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:20:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:20:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:20:40 [scrapy.extensions.logstats] INFO: Crawled 1540 pages (at 32 pages/min), scraped 544 items (at 16 items/min)
+2017-11-14 16:20:46 [scrapy.core.scraper] ERROR: Spider error processing <GET http://uk1.wss.webroot.com/wrproxy/authenticate?wr_token=token&wr_url=http%3a%2f%2fwww.cyzone.cn%2ff%2f20170116%2f2774.html&wr_session_id=1DFD3EB1A06EAC204EC02C52FF0EE0AE> (referer: http://www.cyzone.cn/people/list-0-19-0-0/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 116, in infoParse
+    for config in configs['data']:
+TypeError: 'NoneType' object is not subscriptable
+2017-11-14 16:20:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:20:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:21:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:21:40 [scrapy.extensions.logstats] INFO: Crawled 1545 pages (at 5 pages/min), scraped 546 items (at 2 items/min)
+2017-11-14 16:21:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:21:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:21:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:22:12 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:22:13 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:22:40 [scrapy.extensions.logstats] INFO: Crawled 1560 pages (at 15 pages/min), scraped 551 items (at 5 items/min)
+2017-11-14 16:22:42 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:22:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:22:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:22:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:23:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:23:32 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:23:35 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:23:37 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:23:40 [scrapy.extensions.logstats] INFO: Crawled 1579 pages (at 19 pages/min), scraped 559 items (at 8 items/min)
+2017-11-14 16:23:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:23:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:23:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:24:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:24:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 16:24:10 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:24:35 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:24:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:24:40 [scrapy.extensions.logstats] INFO: Crawled 1600 pages (at 21 pages/min), scraped 568 items (at 9 items/min)
+2017-11-14 16:24:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:24:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:25:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:25:10 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:25:11 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:25:13 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:25:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:25:16 [scrapy.core.scraper] ERROR: Spider error processing <GET http://52.69.20.245/wrproxy/authenticate?wr_token=token&wr_url=http%3a%2f%2fwww.cyzone.cn%2fr%2f20171025%2f57690.html&wr_session_id=1DFD3EB1A06EAC204EC02C52FF0EE0AE> (referer: http://www.cyzone.cn/vcompany/list-0-0-16-0-0/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 116, in infoParse
+    for config in configs['data']:
+TypeError: 'NoneType' object is not subscriptable
+2017-11-14 16:25:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:25:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:25:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:25:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/vcompany/list-0-0-19-0-0/>: HTTP status code is not handled or not allowed
+2017-11-14 16:25:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:25:40 [scrapy.extensions.logstats] INFO: Crawled 1637 pages (at 37 pages/min), scraped 579 items (at 11 items/min)
+2017-11-14 16:25:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:25:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:25:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:25:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:10 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:13 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:22 [scrapy.log] INFO: sql is:insert into dbo.Cyzone_Investor (Investor,InvestorID,Organization,OrganizationID,post,introduction,FocusField,InvestmentStage,CityResident,WorkExperience,AddTime,Checktime) values ('胡静珊','2768','启明创投','22','投资合伙人','胡静珊自2016年3月起入启明投资,合伙人,及启明美国健康医药创投合伙人。胡静珊毕业于北京大学获生物系生化学士学位，于美国德克萨斯大学在MD安德森癌症中心学习获生物医学研究生院博士学位，之后在哈佛医学院完成博士后。随之在美国人类基因组公司（HumanGenomeSciences,Inc）任蛋白质药物研究员和VEGF2项目主管，继而在美国Affymetrix公司任药理基因组学项目经理，并成功与其它企业和学术界如斯坦福大学合作。后加入罗氏制药公司美国RochePaloAlto分公司任功能生物学部门主任。继而加入美国默克(默沙东,Merck&Co/MSD)制药公司任大中华区新药技术产品转让及合作总监。之后加入拜耳医药(BayerHealthCarePharmaceuticals)任副总裁及全球研发中国创新中心负责人。胡静珊具有许多年在三个跨国制药企业及两个美国生物技术公司从事研发、合作、转让、管理方面资深广博的工作经验。','医疗健康','A轮、B轮、C轮、D轮','北京,上海','启明创投|投资合伙人|拜耳医药|副总裁及全球研发中国创新中心负责人|美国默克制药公司|大中华区新药技术产品转让及合作总监|罗氏制药公司美国RochePaloAlto分公司|功能生物学部门主任|美国Affymetrix公司|药理基因组学项目经理|美国人类基因组公司|蛋白质药物研究员和VEGF2项目主管','2017-11-14 16:26:22','2017-11-14 16:26:22')/n reason is :(8152, b'String or binary data would be truncated.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+2017-11-14 16:26:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:27 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:40 [scrapy.extensions.logstats] INFO: Crawled 1663 pages (at 26 pages/min), scraped 588 items (at 9 items/min)
+2017-11-14 16:26:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:54 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.youdao.com/> (referer: http://www.cyzone.cn/people/list-0-20-0-0/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 116, in infoParse
+    for config in configs['data']:
+TypeError: 'NoneType' object is not subscriptable
+2017-11-14 16:26:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:26:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:27:08 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.youdao.com/> (referer: http://www.cyzone.cn/vcompany/list-0-0-17-0-0/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 116, in infoParse
+    for config in configs['data']:
+TypeError: 'NoneType' object is not subscriptable
+2017-11-14 16:27:13 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:27:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:27:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:27:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:27:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:27:40 [scrapy.extensions.logstats] INFO: Crawled 1699 pages (at 36 pages/min), scraped 600 items (at 12 items/min)
+2017-11-14 16:27:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:27:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:27:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:28:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:28:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:28:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:28:06 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:28:10 [scrapy.core.scraper] ERROR: Spider error processing <GET http://52.69.20.245/wrproxy/authenticate?wr_token=token&wr_url=http%3a%2f%2fwww.cyzone.cn%2fr%2f20150704%2f543.html&wr_session_id=1DFD3EB1A06EAC204EC02C52FF0EE0AE> (referer: http://www.cyzone.cn/vpeople/list-0-18/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 116, in infoParse
+    for config in configs['data']:
+TypeError: 'NoneType' object is not subscriptable
+2017-11-14 16:28:11 [scrapy.core.scraper] ERROR: Error downloading <GET http://www.cyzone.cn/r/20171024/57665.html>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-11-14 16:28:12 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:28:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:28:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:28:40 [scrapy.extensions.logstats] INFO: Crawled 1734 pages (at 35 pages/min), scraped 615 items (at 15 items/min)
+2017-11-14 16:28:57 [scrapy.core.scraper] ERROR: Spider error processing <GET http://52.69.20.245/wrproxy/authenticate?wr_token=token&wr_url=http%3a%2f%2fwww.cyzone.cn%2ff%2f20161031%2f2705.html&wr_session_id=1DFD3EB1A06EAC204EC02C52FF0EE0AE> (referer: http://www.cyzone.cn/people/list-0-22-0-0/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 116, in infoParse
+    for config in configs['data']:
+TypeError: 'NoneType' object is not subscriptable
+2017-11-14 16:29:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 16:29:11 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:29:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:29:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:29:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:29:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:29:40 [scrapy.extensions.logstats] INFO: Crawled 1756 pages (at 22 pages/min), scraped 624 items (at 9 items/min)
+2017-11-14 16:29:41 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:29:48 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:29:49 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:29:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:29:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:29:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:30:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:30:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:30:40 [scrapy.extensions.logstats] INFO: Crawled 1765 pages (at 9 pages/min), scraped 627 items (at 3 items/min)
+2017-11-14 16:31:10 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:31:11 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:31:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:31:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:31:38 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:31:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:31:41 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/f/20160415/2449.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:31:41 [scrapy.extensions.logstats] INFO: Crawled 1780 pages (at 15 pages/min), scraped 636 items (at 9 items/min)
+2017-11-14 16:31:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:31:53 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:32:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/f/20160621/2478.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:32:15 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:32:18 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:32:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:32:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:32:40 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:32:41 [scrapy.extensions.logstats] INFO: Crawled 1809 pages (at 29 pages/min), scraped 648 items (at 12 items/min)
+2017-11-14 16:32:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:32:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:33:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:33:10 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:33:22 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:33:23 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:33:36 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:33:39 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:33:40 [scrapy.extensions.logstats] INFO: Crawled 1836 pages (at 27 pages/min), scraped 659 items (at 11 items/min)
+2017-11-14 16:33:43 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:33:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:33:50 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:33:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:34:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 16:34:40 [scrapy.extensions.logstats] INFO: Crawled 1842 pages (at 6 pages/min), scraped 662 items (at 3 items/min)
+2017-11-14 16:34:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:35:05 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:35:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:35:09 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/f/20160812/2508.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:35:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/f/20160503/2464.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:35:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/people/list-0-25-0-0/>: HTTP status code is not handled or not allowed
+2017-11-14 16:35:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:35:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:35:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:35:27 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:35:29 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:35:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:35:40 [scrapy.extensions.logstats] INFO: Crawled 1877 pages (at 35 pages/min), scraped 676 items (at 14 items/min)
+2017-11-14 16:35:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:35:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:35:58 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/r/20170821/56394.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:36:00 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/r/20170707/54563.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:36:10 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.youdao.com/> (referer: http://www.cyzone.cn/vpeople/list-0-20/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 116, in infoParse
+    for config in configs['data']:
+TypeError: 'NoneType' object is not subscriptable
+2017-11-14 16:36:13 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/s/54070824/23277.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:36:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/r/20170821/56389.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:36:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/s/20170818/23208.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:36:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:36:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:36:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:36:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:36:32 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/s/20170821/23236.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:36:33 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:36:40 [scrapy.extensions.logstats] INFO: Crawled 1927 pages (at 50 pages/min), scraped 701 items (at 25 items/min)
+2017-11-14 16:36:45 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:36:46 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:36:47 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:36:50 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.youdao.com/> (referer: http://www.cyzone.cn/vpeople/list-0-21/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 116, in infoParse
+    for config in configs['data']:
+TypeError: 'NoneType' object is not subscriptable
+2017-11-14 16:36:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:36:55 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/s/37840822/23246.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:37:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:37:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/r/20170816/56263.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:37:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:37:16 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:37:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:37:31 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.youdao.com/> (referer: http://www.cyzone.cn/vpeople/list-0-22/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 116, in infoParse
+    for config in configs['data']:
+TypeError: 'NoneType' object is not subscriptable
+2017-11-14 16:37:40 [scrapy.extensions.logstats] INFO: Crawled 1965 pages (at 38 pages/min), scraped 716 items (at 15 items/min)
+2017-11-14 16:38:40 [scrapy.extensions.logstats] INFO: Crawled 1969 pages (at 4 pages/min), scraped 717 items (at 1 items/min)
+2017-11-14 16:38:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:39:11 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:39:12 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:39:16 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <401 http://www.cyzone.cn/s/84650811/23103.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:39:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:39:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:39:26 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 16:39:40 [scrapy.extensions.logstats] INFO: Crawled 1978 pages (at 9 pages/min), scraped 719 items (at 2 items/min)
+2017-11-14 16:39:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:39:55 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:39:56 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:39:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:40:09 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:40:10 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:40:40 [scrapy.extensions.logstats] INFO: Crawled 1993 pages (at 15 pages/min), scraped 725 items (at 6 items/min)
+2017-11-14 16:41:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:41:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:41:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:41:40 [scrapy.extensions.logstats] INFO: Crawled 1999 pages (at 6 pages/min), scraped 727 items (at 2 items/min)
+2017-11-14 16:41:44 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:41:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:42:06 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:42:40 [scrapy.extensions.logstats] INFO: Crawled 2006 pages (at 7 pages/min), scraped 729 items (at 2 items/min)
+2017-11-14 16:42:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:42:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:43:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:43:09 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:43:10 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:43:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/s/20170810/23088.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:43:14 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:43:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:43:28 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:43:29 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:43:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:43:40 [scrapy.extensions.logstats] INFO: Crawled 2045 pages (at 39 pages/min), scraped 742 items (at 13 items/min)
+2017-11-14 16:43:42 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.youdao.com/> (referer: http://www.cyzone.cn/vpeople/list-0-21/)
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\gitwork\Cyzone\Cyzone\spiders\cyzone.py", line 116, in infoParse
+    for config in configs['data']:
+TypeError: 'NoneType' object is not subscriptable
+2017-11-14 16:43:51 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:43:52 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:43:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:44:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:44:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:44:09 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:44:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:44:27 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 16:44:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:44:40 [scrapy.extensions.logstats] INFO: Crawled 2091 pages (at 46 pages/min), scraped 758 items (at 16 items/min)
+2017-11-14 16:44:54 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:44:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:45:01 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:45:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:45:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:45:40 [scrapy.extensions.logstats] INFO: Crawled 2099 pages (at 8 pages/min), scraped 761 items (at 3 items/min)
+2017-11-14 16:45:57 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:45:58 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:46:00 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:46:01 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/r/20170731/55513.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:46:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:46:19 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:46:21 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:46:22 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:46:25 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:46:29 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:46:34 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:46:40 [scrapy.extensions.logstats] INFO: Crawled 2107 pages (at 8 pages/min), scraped 762 items (at 1 items/min)
+2017-11-14 16:46:59 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:47:02 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:47:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/s/20170810/23080.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:47:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:47:10 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:47:17 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:47:19 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/r/20170721/55091.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:47:20 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:47:22 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:47:24 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:47:25 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/s/20170814/23141.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:47:30 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:47:31 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:47:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://www.cyzone.cn/s/20170807/23023.html>: HTTP status code is not handled or not allowed
+2017-11-14 16:47:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <429 http://172.23.3.10:90/ac_portal/proxy.html?template=default&tabs=pwd&vlanid=0&url=http://www.cyzone.cn/vpeople/list-0-29/>: HTTP status code is not handled or not allowed
+2017-11-14 16:47:40 [scrapy.extensions.logstats] INFO: Crawled 2141 pages (at 34 pages/min), scraped 773 items (at 11 items/min)
+2017-11-14 16:48:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:48:40 [scrapy.extensions.logstats] INFO: Crawled 2142 pages (at 1 pages/min), scraped 773 items (at 0 items/min)
+2017-11-14 16:49:40 [scrapy.extensions.logstats] INFO: Crawled 2142 pages (at 0 pages/min), scraped 773 items (at 0 items/min)
+2017-11-14 16:50:03 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:50:04 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 10.1.18.35
+2017-11-14 16:50:05 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:50:07 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:50:08 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 127.0.0.1
+2017-11-14 16:50:16 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-11-14 16:50:16 [py.warnings] WARNING: F:\gitwork\pipeline.py:313: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  self.errorNums), level=log.CRITICAL)
+
+2017-11-14 16:50:16 [scrapy.log] CRITICAL: 爬虫结束,结束时间为2017-11-14 16:50:16,
+本次共成功解析774,其中插入617,更新8,无需操作143,其中有6条错误信息
+2017-11-14 16:50:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 541,
+ 'downloader/exception_type_count/scrapy.core.downloader.handlers.http11.TunnelError': 12,
+ 'downloader/exception_type_count/twisted.internet.error.ConnectionRefusedError': 57,
+ 'downloader/exception_type_count/twisted.internet.error.TCPTimedOutError': 200,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 137,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseFailed': 40,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 95,
+ 'downloader/request_bytes': 1392952,
+ 'downloader/request_count': 2791,
+ 'downloader/request_method_count/GET': 2791,
+ 'downloader/response_bytes': 27223554,
+ 'downloader/response_count': 2250,
+ 'downloader/response_status_count/200': 1648,
+ 'downloader/response_status_count/301': 6,
+ 'downloader/response_status_count/302': 20,
+ 'downloader/response_status_count/401': 16,
+ 'downloader/response_status_count/403': 20,
+ 'downloader/response_status_count/404': 434,
+ 'downloader/response_status_count/429': 20,
+ 'downloader/response_status_count/500': 11,
+ 'downloader/response_status_count/502': 31,
+ 'downloader/response_status_count/503': 15,
+ 'downloader/response_status_count/504': 29,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 11, 14, 8, 50, 16, 582597),
+ 'item_scraped_count': 774,
+ 'log_count/CRITICAL': 1,
+ 'log_count/ERROR': 15,
+ 'log_count/INFO': 1115,
+ 'log_count/WARNING': 3,
+ 'request_depth_max': 42,
+ 'response_received_count': 2143,
+ 'scheduler/dequeued': 2791,
+ 'scheduler/dequeued/memory': 2791,
+ 'scheduler/enqueued': 2791,
+ 'scheduler/enqueued/memory': 2791,
+ 'spider_exceptions/AttributeError': 1,
+ 'spider_exceptions/TypeError': 11,
+ 'start_time': datetime.datetime(2017, 11, 14, 7, 7, 40, 757343)}
+2017-11-14 16:50:16 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-11-15 15:51:51 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: Cyzone)
+2017-11-15 15:51:51 [scrapy.utils.log] INFO: Overridden settings: {'AUTOTHROTTLE_MAX_DELAY': 15, 'BOT_NAME': 'Cyzone', 'LOG_FILE': 'Cyzone.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'Cyzone.spiders', 'SPIDER_LOADER_WARN_ONLY': True, 'SPIDER_MODULES': ['Cyzone.spiders']}
+2017-11-15 15:52:13 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: Cyzone)
+2017-11-15 15:52:13 [scrapy.utils.log] INFO: Overridden settings: {'AUTOTHROTTLE_MAX_DELAY': 15, 'BOT_NAME': 'Cyzone', 'LOG_FILE': 'Cyzone.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'Cyzone.spiders', 'SPIDER_LOADER_WARN_ONLY': True, 'SPIDER_MODULES': ['Cyzone.spiders']}
+2017-11-15 15:52:40 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: Cyzone)
+2017-11-15 15:52:40 [scrapy.utils.log] INFO: Overridden settings: {'AUTOTHROTTLE_MAX_DELAY': 15, 'BOT_NAME': 'Cyzone', 'LOG_FILE': 'Cyzone.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'Cyzone.spiders', 'SPIDER_LOADER_WARN_ONLY': True, 'SPIDER_MODULES': ['Cyzone.spiders']}
+2017-11-15 15:53:22 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: Cyzone)
+2017-11-15 15:53:22 [scrapy.utils.log] INFO: Overridden settings: {'AUTOTHROTTLE_MAX_DELAY': 15, 'BOT_NAME': 'Cyzone', 'LOG_FILE': 'Cyzone.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'Cyzone.spiders', 'SPIDER_LOADER_WARN_ONLY': True, 'SPIDER_MODULES': ['Cyzone.spiders']}

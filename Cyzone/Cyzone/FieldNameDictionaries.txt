@@ -1,0 +1,48 @@
+
+'''
+数据库字段标准化
+the Standard dictionaries what the Field name of the data base
+'''
+
+DB_KV = {'单位名称':
+         'OrganizationName',
+         '组织形式':
+         'OrganizationalForm',
+         '负责人'；
+         'PersonInCharge',
+         '主管机关':
+         'CompetentAuthorities',
+         '合伙人':
+         'Partner',
+         '许可证号':
+         'LicenseKey',
+         '执业律师数':
+         'site_of_institution',
+         '专职律师数': 
+         'NumberOfPracticingLawyers',
+         '兼职律师数': 
+         'NumberOfPartTimeLawyers',
+         '实习律师数'
+         'NumberOfInternLawyers',
+         '办公地址':
+         'OfficeAddress',
+         '电子邮箱': 
+         'EmailAddress',
+         '邮编': 
+         'ZipCode',
+         '电话': 
+         'TelephoneNumber',
+         '传真': 
+         'Fax',
+         '统一社会信用代码': 
+         'UnifiedSocialCreditCode',
+         '简介': 
+         'BriefIntroduction',
+         '照片': 
+         'Photo',
+         '乘车路线': 
+         'BusLine',
+         '地图': 
+         'Map',
+         }
+         

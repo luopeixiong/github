@@ -10,16 +10,18 @@ import re
 from scrapy import  Selector as S2
 from .myselector import  Selector as S
 import requests
+from scrapy.cmdline import execute
+import os
 s = requests.Session()
 
 class PrivateFundSpider(scrapy.Spider):
     name = "private_fund"
     allowed_domains = ["amac.org.cn"]
     custom_settings = {
-                        "CONCURRENT_REQUESTS": 10 ,  #并发数
-                        "CONCURRENT_REQUESTS_PER_DOMAIN": 2 ,#网站并发数
-                        "CONCURRENT_REQUESTS_PER_IP": 2   ,#单IP并发数
-                        "DOWNLOAD_DELAY":1
+                        "CONCURRENT_REQUESTS": 32 ,  #并发数
+                        # "CONCURRENT_REQUESTS_PER_DOMAIN": 2 ,#网站并发数
+                        # "CONCURRENT_REQUESTS_PER_IP": 2   ,#单IP并发数
+                        # "DOWNLOAD_DELAY":1
                         }
     start_urls = ["http://fo.amac.org.cn/amac/allNotice.do-3",
                   "http://fo.amac.org.cn/amac/allNotice.do-2",

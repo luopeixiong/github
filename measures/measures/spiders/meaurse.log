@@ -1,0 +1,111 @@
+﻿2017-09-25 15:24:24 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: measures)
+2017-09-25 15:24:24 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'measures', 'LOG_ENCODING': 'utf8', 'LOG_FILE': 'meaurse.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'measures.spiders', 'SPIDER_MODULES': ['measures.spiders']}
+2017-09-25 15:24:24 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-09-25 15:24:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-09-25 15:24:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-09-25 15:24:24 [py.warnings] WARNING: F:\gitwork\measures\measures\pipe.py:9: ScrapyDeprecationWarning: Module `scrapy.log` has been deprecated, Scrapy now relies on the builtin Python library for logging. Read the updated logging entry in the documentation to learn more.
+  from scrapy import log
+
+2017-09-25 15:24:25 [scrapy.middleware] INFO: Enabled item pipelines:
+['measures.pipelines.MeasuresPipeline']
+2017-09-25 15:24:25 [scrapy.core.engine] INFO: Spider opened
+2017-09-25 15:24:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-09-25 15:26:48 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-09-25 15:26:48 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-09-25 15:26:48 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2017-09-25 15:26:49 [scrapy.extensions.logstats] INFO: Crawled 2 pages (at 2 pages/min), scraped 16 items (at 16 items/min)
+2017-09-25 15:26:56 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: measures)
+2017-09-25 15:26:56 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'measures', 'LOG_ENCODING': 'utf8', 'LOG_FILE': 'meaurse.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'measures.spiders', 'SPIDER_MODULES': ['measures.spiders']}
+2017-09-25 15:26:56 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-09-25 15:26:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-09-25 15:26:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-09-25 15:26:56 [py.warnings] WARNING: F:\gitwork\measures\measures\pipe.py:9: ScrapyDeprecationWarning: Module `scrapy.log` has been deprecated, Scrapy now relies on the builtin Python library for logging. Read the updated logging entry in the documentation to learn more.
+  from scrapy import log
+
+2017-09-25 15:26:57 [scrapy.middleware] INFO: Enabled item pipelines:
+['measures.pipelines.MeasuresPipeline']
+2017-09-25 15:26:57 [scrapy.core.engine] INFO: Spider opened
+2017-09-25 15:26:57 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-09-25 15:27:58 [scrapy.extensions.logstats] INFO: Crawled 9 pages (at 9 pages/min), scraped 111 items (at 111 items/min)
+2017-09-25 15:28:57 [py.warnings] WARNING: F:\gitwork\measures\measures\pipe.py:129: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg("sql is:%s/n reason is :%s"%(sql,e))
+
+2017-09-25 15:28:57 [scrapy.log] INFO: sql is:insert into dbo.sse_szse_measures (stock_code,stock_name,Punish_date,Punish_label,clients,title,contents,doc_website,AddTime,Checktime) values ('600097','开创国际','2017-05-15','监管工作函','控股股东及实际控制人','上海市国资委将其持有的公司间接控股股东上海水产集团有限公司100%股权划转至光明食品（集团）有限公司，由于上海水产集团有限公司间接持有开创国际股权超过30%，此次权益变动涉及要约收购，要求光明食品（集团）有限公司按时披露要约收购报告书摘要。','标题：关于上海开创国际海洋资源股份有限公司的监管工作函证券代码：600097证券简称：开创国际监管类型：监管工作函涉及对象：控股股东及实际控制人处分日期：2017-05-15处理事由：上海市国资委将其持有的公司间接控股股东上海水产集团有限公司100%股权划转至光明食品（集团）有限公司，由于上海水产集团有限公司间接持有开创国际股权超过30%，此次权益变动涉及要约收购，要求光明食品（集团）有限公司按时披露要约收购报告书摘要。','http://www.sse.com.cn/disclosure/credibility/supervision/measures/other/c/6000972017051544939655.doc','2017-09-25 15:28:57','2017-09-25 15:28:57')/n reason is :(8152, b'String or binary data would be truncated.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+2017-09-25 15:28:58 [scrapy.extensions.logstats] INFO: Crawled 16 pages (at 7 pages/min), scraped 238 items (at 127 items/min)
+2017-09-25 15:29:58 [scrapy.extensions.logstats] INFO: Crawled 25 pages (at 9 pages/min), scraped 340 items (at 102 items/min)
+2017-09-25 15:30:57 [scrapy.extensions.logstats] INFO: Crawled 36 pages (at 11 pages/min), scraped 495 items (at 155 items/min)
+2017-09-25 15:31:58 [scrapy.extensions.logstats] INFO: Crawled 51 pages (at 15 pages/min), scraped 710 items (at 215 items/min)
+2017-09-25 15:32:58 [scrapy.extensions.logstats] INFO: Crawled 60 pages (at 9 pages/min), scraped 861 items (at 151 items/min)
+2017-09-25 15:33:59 [scrapy.extensions.logstats] INFO: Crawled 70 pages (at 10 pages/min), scraped 1050 items (at 189 items/min)
+2017-09-25 15:34:58 [scrapy.extensions.logstats] INFO: Crawled 82 pages (at 12 pages/min), scraped 1247 items (at 197 items/min)
+2017-09-25 15:35:58 [scrapy.extensions.logstats] INFO: Crawled 92 pages (at 10 pages/min), scraped 1416 items (at 169 items/min)
+2017-09-25 15:36:59 [scrapy.extensions.logstats] INFO: Crawled 106 pages (at 14 pages/min), scraped 1642 items (at 226 items/min)
+2017-09-25 15:37:57 [scrapy.log] INFO: sql is:insert into dbo.sse_szse_measures (stock_code,stock_name,Punish_date,Punish_label,clients,title,contents,doc_website,AddTime,Checktime) values ('600980、600593、600769、600892、603018、600768','北矿磁材、大连圣亚、祥龙电业、宝诚股份、设计股份、宁波富邦','2015-10-21',',监管关注,','一般股东','关于对中科汇通（深圳）股权投资基金有限公司予以监管关注的决定','上证公监函〔2015〕0061号当事人：中科汇通（深圳）股权投资基金有限公司，上市公司北矿磁材科技股份有限公司、大连圣亚旅游控股股份有限公司、武汉祥龙电业股份有限公司、宝诚投资股份有限公司、江苏省交通规划设计院股份有限公司、宁波富邦精业集团股份有限公司的股东。经查明，中科汇通（深圳）股权投资基金有限公司（以下简称中科汇通）自2015年7月起，通过上海证券交易所（以下简称本所）集中竞价交易系统增持多家上市公司股份，并成为持股5%以上的股东，但增持中多次存在违规行为。具体如下：2015年7月9日和7月15日，中科汇通分别增持北矿磁材科技股份有限公司（股票简称：北矿磁材，股票代码：600980）股票6,513,004股和6,566,497股，分别占北矿磁材已发行股份的5.01%和5.05%。2015年7月8日，中科汇通增持大连圣亚旅游控股股份有限公司（股票简称：大连圣亚，股票代码：600593）股票4,609,266股，占大连圣亚已发行股份的5.01%。2015年7月15日，中科汇通增持武汉祥龙电业股份有限公司（股票简称：祥龙电业，股票代码：600769）股票18,787,545股，占祥龙电业已发行股份的5.01%。2015年7月15日，中科汇通增持宝诚投资股份有限公司（股票简称：宝诚股份，股票代码：600892）3,195,818股，占宝诚股份已发行股份的5.06%。2015年7月28日，中科汇通增持江苏省交通规划设计院股份有限公司（股票简称：设计股份，股票代码:603018）股票5,210,159股，占设计股份已发行股份的5.01%。2015年8月19日，中科汇通增持宁波富邦精业集团股份有限公司（股票简称：宁波富邦，股票代码：600768）股票6,713,694股，占宁波富邦已发行股份的5.01%。中科汇通在增持上述公司的股份达到其已发行股份的5%时，均未及时停止增持行为并履行权益变动的披露义务，且多次违反规定，其行为违反了《证券法》第八十六条、《上市公司收购管理办法》第十三条以及《上海证券交易所股票上市规则》（以下简称《股票上市规则》）第3.1.6条等规定。同时，公司对多家公司违规增持的涉及比例均较小，最高未超过0.1%，可以酌情从轻处理。鉴于上述事实和情节，根据《股票上市规则》第17.1条和《上海证券交易所纪律处分和监管措施实施办法》的有关规定，我部做出如下监管措施决定：对中科汇通（深圳）股权投资基金有限公司予以监管关注。中科汇通应当引以为戒，在从事证券交易等活动时，严格遵守法律法规和本所业务规则，自觉维护证券市场秩序，同时应认真履行信息披露义务，及时告知上市公司已发生或拟发生的重大事件，积极配合上市公司做好信息披露工作。上海证券交易所上市公司监管一部二〇一五年十月二十一日','http://www.sse.com.cn/disclosure/credibility/supervision/measures/focus/c/c_20160524_4118292.shtml','2017-09-25 15:37:57','2017-09-25 15:37:57')/n reason is :(8152, b'String or binary data would be truncated.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+2017-09-25 15:37:58 [scrapy.extensions.logstats] INFO: Crawled 118 pages (at 12 pages/min), scraped 1829 items (at 187 items/min)
+2017-09-25 15:38:58 [scrapy.extensions.logstats] INFO: Crawled 132 pages (at 14 pages/min), scraped 2041 items (at 212 items/min)
+2017-09-25 15:39:57 [scrapy.extensions.logstats] INFO: Crawled 140 pages (at 8 pages/min), scraped 2184 items (at 143 items/min)
+2017-09-25 15:40:58 [scrapy.extensions.logstats] INFO: Crawled 152 pages (at 12 pages/min), scraped 2384 items (at 200 items/min)
+2017-09-25 15:41:51 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-09-25 15:41:51 [py.warnings] WARNING: F:\gitwork\measures\measures\pipe.py:311: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  self.errorNums), level=log.CRITICAL)
+
+2017-09-25 15:41:51 [scrapy.log] CRITICAL: 爬虫结束,结束时间为2017-09-25 15:41:51,
+本次共成功解析2505,其中插入2477,更新7,无需操作19,其中有2条错误信息
+2017-09-25 15:41:51 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 105751,
+ 'downloader/request_count': 160,
+ 'downloader/request_method_count/GET': 104,
+ 'downloader/request_method_count/POST': 56,
+ 'downloader/response_bytes': 4278420,
+ 'downloader/response_count': 160,
+ 'downloader/response_status_count/200': 160,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 9, 25, 7, 41, 51, 919111),
+ 'item_scraped_count': 2505,
+ 'log_count/CRITICAL': 1,
+ 'log_count/INFO': 23,
+ 'log_count/WARNING': 3,
+ 'request_depth_max': 103,
+ 'response_received_count': 160,
+ 'scheduler/dequeued': 160,
+ 'scheduler/dequeued/memory': 160,
+ 'scheduler/enqueued': 160,
+ 'scheduler/enqueued/memory': 160,
+ 'start_time': datetime.datetime(2017, 9, 25, 7, 26, 57, 665953)}
+2017-09-25 15:41:51 [scrapy.core.engine] INFO: Spider closed (finished)

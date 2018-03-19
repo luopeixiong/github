@@ -2,8 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3546def-8003-4561-8f76-832f38868843" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sina_crawler/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sina_spiders/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sina_spiders" afterPath="$PROJECT_DIR$/sina_spiders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sina_crawler/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Sina_crawler/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gitwork.iml" afterPath="$PROJECT_DIR$/.idea/gitwork.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AMAC_Product/.idea/workspace.xml" afterPath="$PROJECT_DIR$/AMAC_Product/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AMAC_Product/AMAC_Product/pipe.py" afterPath="$PROJECT_DIR$/AMAC_Product/AMAC_Product/pipe.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AMAC_Product/AMAC_Product/pipelines.py" afterPath="$PROJECT_DIR$/AMAC_Product/AMAC_Product/pipelines.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AMAC_Product/AMAC_Product/settings.py" afterPath="$PROJECT_DIR$/AMAC_Product/AMAC_Product/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/myselector.py" afterPath="$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/myselector.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/private_fund.py" afterPath="$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/private_fund.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AMAC_Product/main.py" afterPath="$PROJECT_DIR$/AMAC_Product/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pedata/Pedata/.idea/vcs.xml" afterPath="$PROJECT_DIR$/Pedata/Pedata/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pedata/Pedata/items.py" afterPath="$PROJECT_DIR$/Pedata/Pedata/items.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pedata/Pedata/middlewares.py" afterPath="$PROJECT_DIR$/Pedata/Pedata/middlewares.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pedata/Pedata/pipelines.py" afterPath="$PROJECT_DIR$/Pedata/Pedata/pipelines.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pedata/Pedata/settings.py" afterPath="$PROJECT_DIR$/Pedata/Pedata/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pedata/Pedata/spiders/Helper.py" afterPath="$PROJECT_DIR$/Pedata/Pedata/spiders/Helper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pedata/Pedata/spiders/config.py" afterPath="$PROJECT_DIR$/Pedata/Pedata/spiders/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pedata/Pedata/spiders/myselector.py" afterPath="$PROJECT_DIR$/Pedata/Pedata/spiders/myselector.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pedata/Pedata/spiders/pedata.py" afterPath="$PROJECT_DIR$/Pedata/Pedata/spiders/pedata.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pedata/Pedata/spiders/web_pedata.py" afterPath="$PROJECT_DIR$/Pedata/Pedata/spiders/web_pedata.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pedata/account.txt" afterPath="$PROJECT_DIR$/Pedata/account.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pedata/recive_emai.py" afterPath="$PROJECT_DIR$/Pedata/recive_emai.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sina_crawler/Sina_crawler/middlewares.py" afterPath="$PROJECT_DIR$/Sina_crawler/Sina_crawler/middlewares.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sina_crawler/Sina_crawler/pipe.py" afterPath="$PROJECT_DIR$/Sina_crawler/Sina_crawler/pipe.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sina_crawler/Sina_crawler/pipelines.py" afterPath="$PROJECT_DIR$/Sina_crawler/Sina_crawler/pipelines.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sina_crawler/Sina_crawler/settings.py" afterPath="$PROJECT_DIR$/Sina_crawler/Sina_crawler/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sina_crawler/Sina_crawler/spiders/myselector.py" afterPath="$PROJECT_DIR$/Sina_crawler/Sina_crawler/spiders/myselector.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sina_crawler/Sina_crawler/spiders/sina_spider.py" afterPath="$PROJECT_DIR$/Sina_crawler/Sina_crawler/spiders/sina_spider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sina_crawler/main.py" afterPath="$PROJECT_DIR$/Sina_crawler/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sina_spiders/.idea/sina_spiders.iml" afterPath="$PROJECT_DIR$/sina_spiders/.idea/sina_spiders.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sina_spiders/main.py" afterPath="$PROJECT_DIR$/sina_spiders/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/Major_shareholder.py" afterPath="$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/Major_shareholder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/test.py" afterPath="$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,135 +48,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="StockList.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/StockList.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="cyzone.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/cyzone.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1059">
-              <caret line="74" column="34" lean-forward="false" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sina_Equity_change.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/sina_Equity_change.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="95" column="30" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="96" selection-end-column="33" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListedCompany.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/ListedCompany.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="79" column="17" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+            <state relative-caret-position="15">
+              <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Major_shareholder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/Major_shareholder.py">
+      <file leaf-file-name="1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="50" column="22" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="58" selection-end-column="21" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tradable_shareholders.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/Tradable_shareholders.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="59" column="11" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="108" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="company_executives.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/company_executives.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="76" column="16" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="77" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fund_holder.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/fund_holder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="private_fund.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/private_fund.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="63" column="33" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="64" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Laws/Laws/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1505798235100" expanded="true" signature="698:3108" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bjsf.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/bjsf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>js_bas</find>
+      <find>infoNEw</find>
+      <find>body_req</find>
+      <find>body</find>
+      <find>body_request</find>
+      <find>request</find>
+      <find>gd_bas</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/AMAC_Product" />
     <option name="FORCE_PUSH_ALLOWED" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Sina_crawler/Sina_crawler/items.py" />
+        <option value="$PROJECT_DIR$/LawerCrawler/LawerCrawler/spiders/lawerspider.py" />
+        <option value="$PROJECT_DIR$/myselector.py" />
+        <option value="$PROJECT_DIR$/CreditChina/CreditChina/spiders/fjcreditspider.py" />
+        <option value="$PROJECT_DIR$/SpiderHelp.py" />
+        <option value="$PROJECT_DIR$/CreditChina/CreditChina/spiders/sinaspider.py" />
+        <option value="$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/private_fund.py" />
+        <option value="$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/cyzone.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="241" />
-    <option name="y" value="78" />
-    <option name="width" value="1026" />
-    <option name="height" value="545" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -157,6 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -183,21 +149,15 @@
               <item name="AMAC_Product" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="gitwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitwork" type="462c0819:PsiDirectoryNode" />
-              <item name="Sina_crawler" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Sina_crawler" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,6 +170,71 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="fjcreditspider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CreditChina/CreditChina/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gitwork" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CreditChina/CreditChina/spiders/fjcreditspider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="lawerspider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LawerCrawler/LawerCrawler/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gitwork" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LawerCrawler/LawerCrawler/spiders/lawerspider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AMAC_Product" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gitwork" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AMAC_Product/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.lawerspider" />
+      <item index="1" class="java.lang.String" itemvalue="Python.fjcreditspider" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.fjcreditspider" />
+        <item index="2" class="java.lang.String" itemvalue="Python.lawerspider" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -225,20 +250,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="241" y="78" width="1026" height="545" extended-state="1" />
+    <frame x="0" y="22" width="1386" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24950495" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24032739" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37441862" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5588536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.54545456" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -248,71 +273,146 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CreditChina/CreditChina/spiders/fjcreditspider.py</url>
+          <line>1</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/private_fund.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sina_crawler/Sina_crawler/items.py">
+    <entry file="file://$PROJECT_DIR$/AMAC_Product/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#24#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/StockList.py">
+    <entry file="file://$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/private_fund.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1059">
-          <caret line="74" column="34" lean-forward="false" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/ListedCompany.py">
+    <entry file="file://$PROJECT_DIR$/CreditChina/CreditChina/spiders/fjcreditspider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="79" column="17" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="77767">
+          <caret line="4093" column="22" lean-forward="false" selection-start-line="4093" selection-start-column="22" selection-end-line="4093" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreditChina/CreditChina/spiders/sinaspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2717">
+          <caret line="143" column="62" lean-forward="false" selection-start-line="143" selection-start-column="62" selection-end-line="143" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreditChina/CreditChina/spiders/fjcreditspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpiderHelp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1805">
+          <caret line="95" column="11" lean-forward="true" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/sina_Equity_change.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="1335">
           <caret line="95" column="30" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="96" selection-end-column="33" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/ListedCompany.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="79" column="17" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/Major_shareholder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="50" column="22" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="58" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="795">
+          <caret line="58" column="22" lean-forward="false" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/Tradable_shareholders.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="810">
           <caret line="59" column="11" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="108" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/company_executives.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="1065">
           <caret line="76" column="16" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="77" selection-end-column="22" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/fund_holder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -320,34 +420,231 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1505798235100" expanded="true" signature="698:3108" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/bjsf.py">
+    <entry file="file://$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/private_fund.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+        <state relative-caret-position="945">
+          <caret line="63" column="33" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="64" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/StockList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="74" column="34" lean-forward="false" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/sina_Equity_change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1691">
+          <caret line="95" column="30" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="96" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/ListedCompany.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="79" column="17" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/Major_shareholder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="50" column="22" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/Tradable_shareholders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="59" column="11" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="108" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/company_executives.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="76" column="16" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="77" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/fund_holder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laws/Laws/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/bjsf.py" />
+    <entry file="file://$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/private_fund.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="63" column="33" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="64" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sina_crawler/Sina_crawler/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/StockList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="74" column="34" lean-forward="false" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laws/Laws/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/bjsf.py" />
+    <entry file="file://$PROJECT_DIR$/LawerCrawler/LawerCrawler/spiders/lawerspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <caret line="6178" column="19" lean-forward="true" selection-start-line="6178" selection-start-column="19" selection-end-line="6178" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/fund_holder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="98" lean-forward="true" selection-start-line="15" selection-start-column="97" selection-end-line="15" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/company_executives.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="76" column="16" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="77" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/Tradable_shareholders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="59" column="11" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="108" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/Major_shareholder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="58" column="22" lean-forward="false" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/ListedCompany.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="79" column="17" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/sina_Equity_change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="95" column="30" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="96" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RedisHelp.py" />
+    <entry file="file://$PROJECT_DIR$/myselector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="392" column="35" lean-forward="true" selection-start-line="392" selection-start-column="35" selection-end-line="392" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpiderHelp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreditChina/CreditChina/spiders/sinaspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="233" column="52" lean-forward="true" selection-start-line="233" selection-start-column="52" selection-end-line="233" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreditChina/CreditChina/spiders/fjcreditspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4093" column="22" lean-forward="false" selection-start-line="4093" selection-start-column="22" selection-end-line="4093" selection-end-column="22" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sina_spiders/sina_spiders/spiders/fund_holder.py">
+    <entry file="file://$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/private_fund.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="52" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AMAC_Product/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="e#24#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/scrapy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/private_fund.py">
+    <entry file="file://$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/peda.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="63" column="33" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="64" selection-end-column="62" />
+        <state relative-caret-position="86">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/cyzone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AMAC_Product/AMAC_Product/spiders/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,252 @@
+2017-12-13 19:16:58 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=a4aeff79b77349649a00d85212a50cbf>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 19:23:08 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=2c8b77968b9f40e9859032e63fac6fc3>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 19:41:56 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=9867411d396c4c8187e42f8b817c630b>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 19:41:57 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=6eee13d9c11840648affa25444b44989>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 19:42:34 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=abbdd92b2ba94e5e9462d5dfbe32846d>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 19:50:12 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=87290652030b431fb7891dae089d826c>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 19:51:12 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=9372fadebf0545a0bb4e132d33a353cc>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 19:52:19 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=57ddcebef93c4d1199d4d847155b54c9>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 20:02:48 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=66cc2105469448e5b659dc7ca21d5358>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 20:02:49 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=60220efbab2e4fc98dc43cb95096c600>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 20:16:28 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=f77128936e7e4145a2dda73a38f80f0d>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 20:16:52 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=ac5556df5f2a49b487c52e43a3432a9b>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 20:16:56 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=5d121edd40664dca8df30b2870090c5d>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 20:16:57 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=e4caba9cefb442dab0b517769f92f0b9>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 20:26:17 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=5135b4639aff49238106b99c81bcd7cb>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 20:26:18 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=a090911a229e4712809248b0766954ef>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 20:38:41 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=150477c16c5c4d4d9e2f397d8fff1e16>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 20:38:48 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=3681e75d823d4d63bc8e0ef07e00fa1e>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 20:40:39 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=382eef68908c4e978ba1a312f45180cf>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 21:23:09 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=472f15ceb5ad485696534c381c38d2f1>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 21:24:59 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=b5c70c8d0fc94953b2a5af315486086f>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 21:25:00 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=fad41e95897441a6adc6b625343da1af>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 21:41:20 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=5b4901ab01b04864aa3d879cb783dff5>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 21:42:21 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=5d7b6a14642b4068814718dcfbe4ffd7>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 21:42:21 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=bdde6bb8f1b2400a84ea17dd1987df3e>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 21:42:43 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=429a2a4110ae49779507c3be66823592>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 23:40:18 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=b5f001089b1946aca6a1452eedad14fa>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+2017-12-13 23:41:41 [scrapy.core.scraper] ERROR: Error downloading <GET http://218.60.145.124:8080/lnlxoa/govhall/lawyerDetail.jsp?lawyerId=83bbfbf79fe34550851ce8bba995c902>
+Traceback (most recent call last):
+  File "f:\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1384, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "f:\Anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "f:\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+twisted.web._newclient.ResponseFailed: [<twisted.python.failure.Failure twisted.internet.error.ConnectionDone: Connection was closed cleanly.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
