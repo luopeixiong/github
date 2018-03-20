@@ -79,7 +79,7 @@ class SinaspiderSpider(_RedisSpider, SpiderHelp):  #,scrapy.Spider
     def __str__(self): 
         return 'SinaspiderSpider'
 
-    def _start_requests(self):
+    def start_requests(self):
         req = []
         logger.info('Start Crawl Spider %s at rediskey %s' % (self.name,self.redis_key))
         for url in self.start_urls:

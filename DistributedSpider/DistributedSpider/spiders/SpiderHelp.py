@@ -536,7 +536,7 @@ class SpiderHelp(object):
         redis_flag=False,redis_conn=None):
         callback = callback if callback else self.parse
         headers=headers if headers else self.default_header
-        if redis_flag:
+        if 0:
             return _Request(url,callback=callback,dont_filter=dont_filter,body=body,method=method,cookies=cookies,
                 headers=headers,priority=priority,meta=meta,encoding=encoding,redis_flag=redis_flag,redis_conn=self.r)
         else:

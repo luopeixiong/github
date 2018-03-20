@@ -85,7 +85,7 @@ class SinaspiderSpider(_RedisSpider, SpiderHelp):  #,scrapy.Spider
     def __str__(self): 
         return 'SinaspiderSpider'
 
-    def _start_requests(self):
+    def start_requests(self):
         req = []
         logger.info('Start Crawl Spider %s at rediskey %s' % (self.name,self.redis_key))
         for url in self.start_urls:
@@ -146,6 +146,7 @@ class SinaspiderSpider(_RedisSpider, SpiderHelp):  #,scrapy.Spider
         for url in urls:
             yield self.request(url,
                 headers=self.default_header,
+                meta={'cookiejar': response.meta['cookiejar']},
                 callback=self.howbuy_public_company_info)
 
     @SpiderHelp.check_response
@@ -293,6 +294,7 @@ class SinaspiderSpider(_RedisSpider, SpiderHelp):  #,scrapy.Spider
         for url in urls:
             yield self.request(url,
                 headers=self.default_header,
+                meta={'cookiejar': response.meta['cookiejar']},
                 callback=self.howbuy_public_prod_info)
 
     @SpiderHelp.check_response
@@ -413,7 +415,7 @@ class SinaspiderSpider(_RedisSpider, SpiderHelp):  #,scrapy.Spider
             url = 'https://www.howbuy.com/fund/ajax/gmfund/fundrate.htm?jjdm=%s' % item['result']['HTML_ID']
             yield self.request(url,
                 headers=self.default_header,
-                meta=item['result'],
+                meta={'cookiejar': response.meta['cookiejar'],**item['result']},
                 callback=self.howbuy_public_prod_info2)
 
     def howbuy_public_prod_info2(self, response):
@@ -624,6 +626,7 @@ class SinaspiderSpider(_RedisSpider, SpiderHelp):  #,scrapy.Spider
         for url in urls:
             yield self.request(url,
                 headers=self.default_header,
+                meta={'cookiejar': response.meta['cookiejar']},
                 callback=self.howbuy_public_manager_info)
 
     @SpiderHelp.check_response

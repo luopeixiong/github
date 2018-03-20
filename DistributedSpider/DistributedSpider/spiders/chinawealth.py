@@ -111,7 +111,7 @@ class ChinaSpider(_RedisSpider , SpiderHelp):  #,scrapy.Spider
                 'User-Agent': generate_user_agent(os=('mac',)),
                 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'}
 
-    def _start_requests(self):
+    def start_requests(self):
         req = []
         logger.info('Start Crawl Spider %s at rediskey %s' % (self.name,self.redis_key))
         for url in self.start_urls:

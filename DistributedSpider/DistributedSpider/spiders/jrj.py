@@ -80,7 +80,7 @@ class SinaspiderSpider(_RedisSpider, SpiderHelp):  #,scrapy.Spider
         string = 'pageIndex=%s&pageSize=18&insuranceTypeId=&insuranceCompanyId=&ageInterval=&productName=&order=0&desc=1&pageIndex=%s&pageSize=18&' % (page,lastpage)
         return string
 
-    def _start_requests(self):
+    def start_requests(self):
         req = []
         logger.info('Start Crawl Spider %s at rediskey %s' % (self.name,self.redis_key))
         for url in self.start_urls:
@@ -398,7 +398,7 @@ class SinaspiderSpider(_RedisSpider, SpiderHelp):  #,scrapy.Spider
                         },
                 callback=self.jrj_insurance_org_in,
                 headers=self.default_header,
-                urlfunc=lambda page,response=None:'http://insurance.jrj.com.cn/html/ic/list/ics-%s.shtml' % page-1,
+                urlfunc=lambda page,response=None:'http://insurance.jrj.com.cn/html/ic/list/ics-%s.shtml' %  int(page)-1,
                 divmod=1,
                 redis_conn=self.r,
                 redis_flag=True,
@@ -415,8 +415,8 @@ class SinaspiderSpider(_RedisSpider, SpiderHelp):  #,scrapy.Spider
                     'v': '//table',    
                     't': 'xpath',
                     'db': 'Jrj.Jrj_BankInfo',
-                    'keys': ['FullName'],
-                    'check': 'FullName',
+                    'keys': ['ComName'],
+                    'check': 'ComName',
                     'conn': conn_flag
                 },
                 'response_type':

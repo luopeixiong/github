@@ -46,13 +46,13 @@ class SinaspiderSpider(_RedisSpider, SpiderHelp):  #,scrapy.Spider
     host = '10.1.18.35'
     website_possible_httpstatus_list = [404, 502, 500, 504, 407]
     custom_settings = {
-        'DOWNLOADER_MIDDLEWARES': 
-        {
-            # 启用UA中间件
-            # 'DistributedSpider.middlewares.RotateUserAgentMiddleware': 401,
-            # 启用代理
-            'DistributedSpider.middlewares.ProxyMiddleware': 700,
-        },
+        # 'DOWNLOADER_MIDDLEWARES': 
+        # {
+        #     # 启用UA中间件
+        #     # 'DistributedSpider.middlewares.RotateUserAgentMiddleware': 401,
+        #     # 启用代理
+        #     'DistributedSpider.middlewares.ProxyMiddleware': 700,
+        # },
         # 最大并发
          'CONCURRENT_REQUESTS': 16,
         # 单ip最大并发
@@ -73,7 +73,7 @@ class SinaspiderSpider(_RedisSpider, SpiderHelp):  #,scrapy.Spider
     def __str__(self): 
         return 'SinaspiderSpider'
 
-    def _start_requests(self):
+    def start_requests(self):
         req = []
         logger.info('Start Crawl Spider %s at rediskey %s' % (self.name,self.redis_key))
         for url in self.start_urls:
@@ -88,7 +88,7 @@ class SinaspiderSpider(_RedisSpider, SpiderHelp):  #,scrapy.Spider
     def p2peye_list(self, response):
         # 新浪 期货列表
         # logger.error(response)
-        reqs = self.scrapy_info_url_help( response,
+        reqs = self.scrapy_info_url_help( response.url,
                                            config={'t': 'xpath_extract',
                                                    'v': '//li[@class="ui-result-item"]//a[@class="ui-result-pname"]/@href',
                                                    },

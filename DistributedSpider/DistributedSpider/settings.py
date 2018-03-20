@@ -15,7 +15,7 @@ SPIDER_MODULES = ['DistributedSpider.spiders']
 NEWSPIDER_MODULE = 'DistributedSpider.spiders'
 
 DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
-# SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 REDIS_URL = 'redis://10.1.18.35:6379'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'rediscrawl (+http://www.yourdomain.com)'
@@ -84,6 +84,7 @@ RETRY_TIMES = 5
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    'DistributedSpider.pipelines.DistributedspiderPipeline': 300,
+   'scrapy_redis.pipelines.RedisPipeline':500,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

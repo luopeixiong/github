@@ -189,7 +189,7 @@ class SinaspiderSpider(_RedisSpider, SpiderHelp):  # ,scrapy.Spider
     def __str__(self):
         return 'SinaspiderSpider'
 
-    def _start_requests(self):
+    def start_requests(self):
         regex = re.compile('[(（].*?[)）]').sub
         req = []
         logger.info('Start Crawl Spider %s at rediskey %s' %
